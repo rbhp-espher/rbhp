@@ -1,0 +1,11 @@
+(roundandround
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/roundandround_plus.mid")
+   (song_id 307)
+   (rank
+      (real_guitar 268)
+      (real_bass 1)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

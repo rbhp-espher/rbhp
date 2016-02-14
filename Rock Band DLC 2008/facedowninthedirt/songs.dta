@@ -1,0 +1,65 @@
+; RBDLC08 - 1005186 - Mötley Crüe - Face Down in the Dirt
+(facedowninthedirt
+   (name "Face Down in the Dirt")
+   (artist "Mötley Crüe")
+   (master TRUE)
+   (context 346)
+   (song
+     (name        songs/facedowninthedirt/facedowninthedirt)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3))
+         (bass (4 5))
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.3 -1.0  -3.0 -3.0  -9.0 -9.0  -4.7 -4.7  -4.5 -4.5  -3.0 -3.0 ))
+     (cores       (  -1   -1    -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/facedowninthedirt/facedowninthedirt.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 54000 84000)
+   (rank
+      (drum 333)
+      (guitar 175)
+      (bass 139)
+      (vocals 99)
+      (band 186)
+   )
+   (genre rock)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+
+   (format 2)
+   (version 1)               
+
+   (album_art TRUE) 
+   (year_released 2008)
+   (album_name "Saints of Los Angeles")
+   (album_track_number 2)
+   (pack_name "Crue Fest Pack 02")
+; Added from RB3 DTB
+(song_id 1005186)
+(song_length 229090)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(encoding latin1)
+; Added RB3 tonic info
+(vocal_tonic_note 7)
+(song_tonality 1)
+)

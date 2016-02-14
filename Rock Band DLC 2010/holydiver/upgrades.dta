@@ -1,0 +1,5 @@
+(holydiver
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/holydiver_plus.mid")
+	(song_id 1005903)
+)

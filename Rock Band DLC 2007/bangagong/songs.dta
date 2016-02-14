@@ -1,0 +1,58 @@
+; RBDLC07 - 1005006 - T. Rex - Bang a Gong
+(bangagong
+   (name "Bang a Gong")  
+   (artist "T. Rex")
+   (context 89)
+   (song
+     (name        songs/bangagong/bangagong)
+     (tracks          
+        ((drum (0 1 2 3 4 5))
+         (bass 6) 
+         (guitar (7 8))
+         (vocals (9 10))  
+        ) 
+     )
+     ;                 KICK     SNARE     CYMBALS   BASS  GUITAR    VOCALS    TRKS
+     (pans        (  -1.0  1.0 -1.0  1.0 -1.0  1.0  0.0 -1.0  1.0 -1.0  1.0 -1.0  1.0))
+     (vols        (  -1.0 -1.0 -1.0 -1.0 -1.5 -1.5 -3.0 -2.5 -2.5 -4.5 -4.5 -3.0 -3.0))
+     (cores       (   -1   -1   -1   -1   -1   -1   -1    1    1   -1   -1   -1   -1 ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/bangagong/bangagong.mid)
+     (vocal_parts 3)     
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   ;(preview 30000 61200)
+   (rank
+      (drum 260)
+      (guitar 250)
+      (bass 250)
+      (vocals 150)
+      (band 270)
+   )
+   (genre glam)
+   (decade the70s)
+   (downloaded TRUE)
+   (vocal_gender male)
+	; Added from RB3 DTB
+	(song_id 1005006)	
+	(preview 30000 60000)
+	(song_length 275909)	
+	(solo (guitar))	
+	(format 10)	
+	(version 1)	
+	(game_origin rb1_dlc)	
+	(rating 2)	
+	(year_released 1971)	
+	(alternate_path TRUE)	
+	(album_art FALSE)	
+; Added RB3 scroll information 
+   (vocal_tonic_note 5)
+   (song_tonality 0)
+)

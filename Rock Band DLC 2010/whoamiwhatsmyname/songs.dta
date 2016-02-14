@@ -1,0 +1,82 @@
+(whoamiwhatsmyname
+   (name "Who Am I (What's My Name)?")
+   (artist "Snoop Dogg")
+   (master TRUE)
+   (context 1378)
+   (song
+     (name        "songs/whoamiwhatsmyname/whoamiwhatsmyname")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass (5 6))
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -5.0 -5.0   -5.0 -5.0   -5.0 -5.0  -9.5 -9.5  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1     -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/whoamiwhatsmyname/whoamiwhatsmyname.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 19500 49500)
+   (rank
+      (drum 193)
+      (guitar 258)
+      (bass 172)
+      (vocals 223)
+      (band 235)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre urban)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 11)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005939)         
+
+   (rating 2)           
+
+   (short_version 119000) 
+
+   (song_length 250909) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Snoop Dogg Rock Band Re-Records")   
+
+   (album_track_number 2)   
+
+   (pack_name "Snoop Dogg Pack 01")  
+
+   (base_points 542563)
+(song_tonality 0)
+)

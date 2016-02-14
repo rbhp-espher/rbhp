@@ -1,0 +1,69 @@
+; RBDLC08 - 1005363 - Children of Bodom - Are You Dead Yet?
+(areyoudeadyet
+   (name "Are You Dead Yet?")
+   (artist "Children of Bodom")
+   (master TRUE)
+   (context 510)
+   (song
+     (name        songs/areyoudeadyet/areyoudeadyet)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass (5 6))
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        (    0.0   -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (   -1.0   -2.5 -2.5   -4.0 -4.0  -2.5 -2.5  -3.3 -3.3  -3.5 -3.5  -3.9 -3.9 ))
+     (cores       (    -1     -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/areyoudeadyet/areyoudeadyet.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 90372 119722)
+   (rank
+      (drum 353)
+      (guitar 349)
+      (bass 327)
+      (vocals 172)
+      (band 410)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Are You Dead Yet?")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 576312)
+; Added from RB3 DTB
+(song_id 1005363)
+(song_length 240000)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+)

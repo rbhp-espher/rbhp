@@ -1,0 +1,8 @@
+; Inkubus Succubus - Heart of Lilith
+(UGC_5004892
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5004892_plus.mid")
+	(song_id 5004892)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
+)

@@ -1,0 +1,88 @@
+; RBDLC10 - 1006180 - Bob Marley and the Wailers - Could You Be Loved
+(couldyoubeloved
+   (name "Could You Be Loved")
+   (artist "Bob Marley and the Wailers")
+   (master TRUE)
+   (context 1388)
+   (song
+     (name        "songs/couldyoubeloved/couldyoubeloved")
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -5.0 -5.0  -5.0 -5.0  -5.0 -5.0  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/couldyoubeloved/couldyoubeloved.mid")
+     (hopo_threshold 90)
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents 50)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 18253 48253)
+   (rank
+      (drum 246)
+      (guitar 290)
+      (bass 275)
+      (vocals 225)
+      (band 271)
+   )
+
+   
+
+   
+
+   
+
+
+   (genre other)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 11)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006180)         
+
+   (rating 2)           
+
+   (short_version 120654) 
+
+   (song_length 222415) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1984) 
+
+   (album_name "Legend")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 499090)
+; Added RB3 scroll information
+(song_tonality 1)   
+)

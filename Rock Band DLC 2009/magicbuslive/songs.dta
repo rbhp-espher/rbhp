@@ -1,0 +1,78 @@
+(magicbuslive
+   (name "Magic Bus (Live at Leeds)")
+   (artist "The Who")
+   (master TRUE)
+   (context 830)
+   (song
+     (name        songs/magicbuslive/magicbuslive)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -1.0 -1.0  -6.3 -6.3  -4.0 -4.0  -2.7 -2.7  -2.0 -2.0 ))
+     (cores       (  -1    -1   -1    -1    -1    1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/magicbuslive/magicbuslive.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 80898 110898)
+   (rank
+      (drum 415)
+      (guitar 373)
+      (bass 375)
+      (vocals 405)
+      (band 415)
+   )
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005744)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1970)
+   (album_name "Live at Leeds")   
+
+   (album_track_number 13)   
+
+   
+
+   (base_points 840354)
+; Added from RB3 DTB
+(song_length 450909)
+(solo (vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

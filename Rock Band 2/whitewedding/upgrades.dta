@@ -1,0 +1,5 @@
+(whitewedding
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/whitewedding_plus.mid")
+	(song_id 324)
+)

@@ -1,0 +1,7 @@
+(weightless
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/weightless_plus.mid")
+   (song_id 1005887)
+   ;(rbhp_author thomeval)
+   ;(rbhp_version 1)
+)

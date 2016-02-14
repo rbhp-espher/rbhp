@@ -1,0 +1,80 @@
+; RBDLC10 - 1005815 - Miley Cyrus - Start All Over
+(startallover
+   (name "Start All Over")
+   (artist "Miley Cyrus")
+   (master TRUE)
+   (context 1268)
+   (song
+     (name        "songs/startallover/startallover")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0  -1.5  -3.6 -3.6  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/startallover/startallover.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 49783 79783)
+   (rank
+      (drum 226)
+      (guitar 215)
+      (bass 167)
+      (vocals 223)
+      (band 220)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender female)
+   ;(vocal_tonic_note 7)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005815)         
+
+   (rating 1)           
+
+   (short_version 126281) 
+
+   (song_length 209736) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2007)
+   (album_name "Meet Miley Cyrus")   
+
+   (album_track_number 7)   
+
+   (pack_name "Miley Cyrus Pack 01")  
+
+   (base_points 567220)
+; Added RB3 tonic information
+(vocal_tonic_note 7)
+(song_tonality 0)
+)

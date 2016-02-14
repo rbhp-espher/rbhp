@@ -1,0 +1,8 @@
+; Hitman Blues Band - Two Minute Warning
+(UGC_5004543
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5004543_plus.mid")
+	(song_id 5004543)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

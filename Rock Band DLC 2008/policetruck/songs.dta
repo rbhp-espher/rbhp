@@ -1,0 +1,73 @@
+; RBDLC08 - 1005340 - Dead Kennedys - Police Truck
+(policetruck
+   (name "Police Truck")
+   (artist "Dead Kennedys")
+   (master TRUE)
+   (context 496)
+   (song
+     (name        songs/policetruck/policetruck)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5 -1.5  -2.5 -2.5   -3.5 -3.5  -4.5 -4.5  -3.5 -3.5  -2.2 -2.2  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/policetruck/policetruck.mid)
+     
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 22234 50083)
+   (rank
+      (drum 379)
+      (guitar 243)
+      (bass 368)
+      (vocals 360)
+      (band 335)
+   )
+   (genre punk)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1987)
+   (album_name "Give Me Convenience or Give Me Death")   
+
+   (album_track_number 1)   
+
+   (pack_name "Dead Kennedys Pack 01")  
+
+   (base_points 391798)
+; Added from RB3 DTB
+(song_id 1005340)
+(song_length 150000)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

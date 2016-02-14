@@ -1,0 +1,63 @@
+; RBDLC08 - 1005092 - Judas Priest - Screaming For Vengeance
+(screamingfor
+   (name "Screaming For Vengeance")
+   (artist "Judas Priest")
+   (master TRUE)
+   (context 183)
+   (song
+     (name        songs/screamingfor/screamingfor)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.0  -1.0 -1.0   -2.0 -2.0  -2.0  -2.5 -2.5  -3.5 -3.5  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/screamingfor/screamingfor.mid)
+     (hopo_threshold 250)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 60917 90836)
+   (rank
+      (drum 450)
+      (guitar 379)
+      (bass 379)
+      (vocals 204)
+      (band 345)
+   )
+   (genre metal)
+   (decade the80s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005092)
+(song_length 290454)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 1982)
+(alternate_path TRUE)
+(extra_authoring disc_update)
+(album_art TRUE)
+(album_name "Screaming for Vengeance")
+(album_track_number 7)
+; Added RB3 scroll information
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

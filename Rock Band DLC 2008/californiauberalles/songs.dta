@@ -1,0 +1,72 @@
+; RBDLC08 - 1005342 - Dead Kennedys - California Über Alles
+(californiauberalles
+   (name "California Über Alles")
+   (artist "Dead Kennedys")
+   (master TRUE)
+   (context 494)
+   (song
+     (name        songs/californiauberalles/californiauberalles)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.2  -2.0 -2.0  -3.0 -3.0   -4.0 -4.0  -2.0 -2.0  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1    -1   -1      1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/californiauberalles/californiauberalles.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/Tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 53750 82750)
+   (rank
+      (drum 449)
+      (guitar 236)
+      (bass 279)
+      (vocals 247)
+      (band 370)
+   )
+   (genre punk)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1987)
+   (album_name "Give Me Convenience or Give Me Death")   
+
+   (album_track_number 3)   
+
+   (pack_name "Dead Kennedys Pack 01")  
+
+   (base_points 629908)
+; Added from RB3 DTB
+(song_id 1005342)
+(song_length 212272)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+(encoding utf8)
+; Added RB3 tonic info
+(vocal_tonic_note 3)
+(song_tonality 1)
+)

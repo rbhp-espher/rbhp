@@ -1,0 +1,9 @@
+; Band of Skulls - I Know What I Am
+(UGC_5001804
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001804_plus.mid")
+	(song_id 5001804)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

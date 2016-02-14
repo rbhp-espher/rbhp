@@ -1,0 +1,9 @@
+; Nothing More - Fat Kid
+(UGC_5002436
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5002436_plus.mid")
+	(song_id 5002436)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author espher)
+	;(rbhp_version 1)
+)

@@ -1,0 +1,77 @@
+(rockready
+   (name "Rock Ready")
+   (artist "Crown of Thorns")
+   (master TRUE)
+   (context 1253)
+   (song
+     (name        "songs/rockready/rockready")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.5 -3.5  -4.2 -4.2   -4.5 -4.5  -3.5  -4.5 -4.5  -2.6 -2.6  -4.5 -4.5 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/rockready/rockready.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 67616 97616)
+   (rank
+      (drum 205)
+      (guitar 347)
+      (bass 260)
+      (vocals 264)
+      (band 278)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 6)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006068)         
+
+   (rating 2)           
+
+   (short_version 103375) 
+
+   (song_length 255448) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Faith")   
+
+   (album_track_number 5)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+; Added RB3 tonic info
+(song_tonality 1)
+)

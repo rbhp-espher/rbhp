@@ -1,0 +1,85 @@
+(lookinforagoodtime
+   (name "Lookin' for a Good Time")
+   (artist "Lady Antebellum")
+   (master TRUE)
+   (context 1366)
+   (song
+     (name        "songs/lookinforagoodtime/lookinforagoodtime")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -3.5 -3.5   -3.5 -3.5  -0.5  -3.5 -3.5  -3.0 -3.0  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/lookinforagoodtime/lookinforagoodtime.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 46989 76989)
+   (rank
+      (drum 194)
+      (guitar 220)
+      (bass 250)
+      (vocals 306)
+      (band 210)
+   )
+   
+   
+
+   
+
+   (solo (guitar))
+
+   (genre country)
+   (decade the00s)
+   (vocal_gender female)
+   (vocal_tonic_note 7)
+   (song_tonality 0)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006129)         
+
+   (rating 2)           
+
+   (short_version 129592) 
+
+   (song_length 187286) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2008) 
+
+   (album_name "Lady Antebellum")   
+
+   (album_track_number 2)   
+
+   (pack_name "Going Country Pack 04")  
+
+   (base_points 437279)
+)

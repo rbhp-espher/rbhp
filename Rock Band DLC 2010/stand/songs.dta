@@ -1,0 +1,88 @@
+; RBDLC10 - 1006172 - R.E.M. - Stand
+(stand
+   (name "Stand")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1415)
+   (song
+     (name        "songs/stand/stand")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -5.5 -5.5  -5.5 -5.5   -5.5 -5.5  -2.0  -5.5 -5.5  -5.5 -5.5  -5.5 -5.5 ))
+     (cores       (   -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/stand/stand.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 40000 70000)
+   (rank
+      (drum 175)
+      (guitar 231)
+      (bass 230)
+      (vocals 220)
+      (band 203)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006172)         
+
+   (rating 1)           
+
+   (short_version 101076) 
+
+   (song_length 190000) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1988) 
+
+   (album_name "Green")   
+
+   (album_track_number 4)   
+
+   
+
+   (base_points 446711)
+; Added RB3 scroll information   
+
+(song_tonality 0)
+)

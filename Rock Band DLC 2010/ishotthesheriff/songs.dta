@@ -1,0 +1,80 @@
+; RBDLC10 - 1005898 - Bob Marley and the Wailers - I Shot the Sheriff
+(ishotthesheriff
+   (name "I Shot the Sheriff")
+   (artist "Bob Marley and the Wailers")
+   (master TRUE)
+   (context 1393)
+   (song
+     (name        "songs/ishotthesheriff/ishotthesheriff")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.5  -3.0 -3.0  -0.2  -2.8 -2.8  -3.0 -3.0  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/ishotthesheriff/ishotthesheriff.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 04156 34156)
+   (rank
+      (drum 261)
+      (guitar 177)
+      (bass 290)
+      (vocals 315)
+      (band 231)
+   )
+   (genre other)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 7)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005898)         
+
+   (rating 2)           
+
+   (short_version 105848) 
+
+   (song_length 237516) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1984) 
+
+   (album_name "Legend")   
+
+   (album_track_number 9)   
+
+   
+
+   (base_points 491631)
+; Added RB3 scroll information
+(song_tonality 1)
+)

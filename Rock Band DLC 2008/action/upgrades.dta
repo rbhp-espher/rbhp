@@ -1,0 +1,7 @@
+(action
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/action_plus.mid")
+   (song_id 1005041)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

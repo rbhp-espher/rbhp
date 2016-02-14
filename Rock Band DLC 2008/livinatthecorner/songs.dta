@@ -1,0 +1,67 @@
+; RBDLC08 - 1005203 - MC Frontalot - Livin' at the Corner of Dude & Catastrophe
+(livinatthecorner
+   (name "Livin' at the Corner of Dude & Catastrophe")
+   (artist "MC Frontalot feat. Brad Sucks")
+   (master TRUE)
+   (context 373)
+   (song
+     (name        songs/livinatthecorner/livinatthecorner)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     
+
+     (pans        ( -1.0   1.0  -1.0  1.0   -1.0  1.0  -1.0   1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -2.0  -2.5 -2.5   -2.5 -2.5  -5.0  -5.0   -0.5 -0.5  -4.5 -4.5  -3.0 -3.0 ))
+     (cores       (  -1    -1    -1   -1     -1   -1    -1     1      1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/livinatthecorner/livinatthecorner.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 12896 41356)
+   (rank
+      (drum 252)
+      (guitar 140)
+      (bass 113)
+      (vocals 150)
+      (band 163)
+   )
+   (genre other)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+
+   (format 3)
+   (version 1)               
+
+   (album_art TRUE) 
+   (year_released 2007)
+   (album_name "Secrets from the Future")   
+
+   (album_track_number 3)   
+
+   (pack_name "The PAX 2008 Collection")  
+
+   (base_points 611885)
+; Added from RB3 DTB
+(song_id 1005203)
+(song_length 226818)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 scroll information
+(vocal_tonic_note 4)
+(song_tonality 0)
+)

@@ -1,0 +1,84 @@
+(outofline
+   (name "Out of Line")
+   (artist "Buckcherry")
+   (master TRUE)
+   (context 1408)
+   (song
+     (name        "songs/outofline/outofline")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0   -4.0 -4.0  -1.0  -4.0 -4.0  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/outofline/outofline.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 53533 83533)
+   (rank
+      (drum 156)
+      (guitar 216)
+      (bass 240)
+      (vocals 118)
+      (band 185)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006133)         
+
+   (rating 2)           
+
+   (short_version 134446) 
+
+   (song_length 264666) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2006) 
+
+   (album_name "15")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 581906)
+)

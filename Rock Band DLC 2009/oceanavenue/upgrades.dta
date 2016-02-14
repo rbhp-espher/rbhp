@@ -1,0 +1,7 @@
+(oceanavenue
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/oceanavenue_plus.mid")
+   (song_id 1005834)
+   ;(rbhp_harmonies_author Espher)
+   ;(rbhp_version 1)
+)

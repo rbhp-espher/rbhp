@@ -1,0 +1,7 @@
+(getyourrockon
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/getyourrockon_plus.mid")
+   (song_id 1005197)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

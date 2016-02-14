@@ -1,0 +1,88 @@
+; RBDLC10 - 1006004 - R.E.M. - These Days
+(thesedays
+   (name "These Days")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1417)
+   (song
+     (name        "songs/thesedays/thesedays")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass (5 6))
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.7  -4.0 -4.0   -4.0 -4.0  -4.0 -4.0  -3.7 -3.7  -3.5 -3.5  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/thesedays/thesedays.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 30020 60020)
+   (rank
+      (drum 230)
+      (guitar 220)
+      (bass 220)
+      (vocals 188)
+      (band 225)
+   )
+
+   
+
+   
+
+   
+
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006004)         
+
+   (rating 1)           
+
+   (short_version 100205) 
+
+   (song_length 205697) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1986) 
+
+   (album_name "Life's Rich Pageant")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 598727)
+; Added from RB3 DTB
+(song_tonality 1)
+)

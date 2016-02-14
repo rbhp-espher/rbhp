@@ -1,0 +1,7 @@
+(twoweeks
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/twoweeks_plus.mid")
+   (song_id 1005204)
+   ;(rbhp_author Nightmare Lyra)
+  ;(rbhp_version 1)
+)

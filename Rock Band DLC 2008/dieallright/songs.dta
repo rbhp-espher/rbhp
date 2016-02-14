@@ -1,0 +1,61 @@
+; RBDLC08 - 1005038 - The Hives - Die, All Right!
+(dieallright
+   (name "Die, All Right!")  
+   (artist "The Hives")
+   (master TRUE)
+   (context 37)
+   (song
+     (name        songs/dieallright/dieallright)
+     (tracks          
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))  
+        ) 
+     )
+     (vocal_parts 3)
+     ;                KIK   SN  CYMBALS  BASS  GUITAR    VOCALS     TRKS
+     (pans        (   0.0  0.0 -1.0  1.0  0.0 -1.0  1.0 -1.0  1.0 -1.0  1.0))
+     (vols        (  -1.0 -1.5 -4.5 -4.5 -3.0 -3.0 -3.0 -3.0 -3.0 -2.0 -2.0))
+     (cores       (   -1   -1   -1   -1   -1    1    1   -1   -1   -1   -1 ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/dieallright/dieallright.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 33901 63065)
+   (rank
+      (drum 310)
+      (guitar 230)
+      (bass 230)
+      (vocals 250)
+      (band 250)
+   )
+   (genre punk)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005038)
+(song_length 171818)
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 2000)
+(alternate_path TRUE)
+(album_art TRUE)
+(album_name "Veni Vidi Vicious")
+(album_track_number 2)
+; Added RB3 scroll information
+   (vocal_tonic_note 4)
+   (song_tonality 1)
+
+)
+

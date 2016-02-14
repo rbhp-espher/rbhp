@@ -1,0 +1,69 @@
+(useit
+   (name "Use It")
+   (artist "The New Pornographers")
+   (master TRUE)
+   (context 611)
+   (song
+     (name        songs/useit/useit)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   -1.0  1.0   -1.0  1.0 ))
+     (vols        ( -1.5 -1.5  -3.5 -3.5   -4.0 -4.0   -2.0 -2.0   -3.0 -3.0 ))
+     (cores       (  -1   -1    -1   -1      1    1     -1   -1     -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/useit/useit.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 36851 64928)
+   (rank
+      (drum 293)
+      (guitar 166)
+      (bass 226)
+      (vocals 219)
+      (band 272)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Twin Cinema")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 514567)
+; Added from RB3 DTB
+(song_id 1005473)
+(song_length 209090)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

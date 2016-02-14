@@ -1,0 +1,88 @@
+; RBDLC10 - 1006151 - Bob Marley and the Wailers - Stir It Up
+(stiritup
+   (name "Stir It Up")
+   (artist "Bob Marley and the Wailers")
+   (master TRUE)
+   (context 1391)
+   (song
+     (name        "songs/stiritup/stiritup")
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0   -4.0 -4.0  -4.0 -4.0  -3.5 -3.5  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/stiritup/stiritup.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 81548 111548)
+   (rank
+      (drum 158)
+      (guitar 209)
+      (bass 150)
+      (vocals 219)
+      (band 181)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre other)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006151)         
+
+   (rating 2)           
+
+   (short_version 108501) 
+
+   (song_length 338787) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1984) 
+
+   (album_name "Legend")   
+
+   (album_track_number 7)   
+
+   
+
+   (base_points 520363)
+; Added RB3 scroll information
+(song_tonality 0)
+
+)

@@ -1,0 +1,86 @@
+(wouldyougowithme
+   (name "Would You Go With Me")
+   (artist "Josh Turner")
+   (master TRUE)
+   (context 1364)
+   (song
+     (name        "songs/wouldyougowithme/wouldyougowithme")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -4.0 -4.0  -6.0  -7.5 -7.5  -5.0 -5.0  -4.6 -4.6 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/wouldyougowithme/wouldyougowithme.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 160000 189990)
+   (rank
+      (drum 303)
+      (guitar 324)
+      (bass 220)
+      (vocals 255)
+      (band 315)
+   )
+
+   
+
+   
+
+   (solo (vocal_percussion))
+
+   (genre country)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 6)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006108)         
+
+   (rating 2)           
+
+   (short_version 137940) 
+
+   (song_length 226303) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2006)
+   (album_name "Your Man")   
+
+   (album_track_number 1)   
+
+   (pack_name "Going Country Pack 04")  
+
+   (base_points 525681)
+; Added from RB3 DTB
+;(vocal_tonic_note 9)
+;(song_tonality 1)
+)

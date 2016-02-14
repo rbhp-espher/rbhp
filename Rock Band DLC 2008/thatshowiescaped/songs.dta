@@ -1,0 +1,70 @@
+; RBDLC08 - 1005345 - Mission of Burma - That's How I Escaped My Certain Fate
+(thatshowiescaped
+   (name "That's How I Escaped My Certain Fate")
+   (artist "Mission of Burma")
+   (master TRUE)
+   (context 491)
+   (song
+     (name        songs/thatshowiescaped/thatshowiescaped)
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (    0.0   -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (   -0.0   -0.0 -0.0   -3.5 -3.5  -0.0  -4.0 -4.0  -2.5 -2.5  -2.5 -2.5 ))
+     (cores       (    -1     -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/thatshowiescaped/thatshowiescaped.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 73375 103000)
+   (rank
+      (drum 450)
+      (guitar 330)
+      (bass 328)
+      (vocals 113)
+      (band 384)
+   )
+   (genre punk)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1982)
+   (album_name "Vs.")   
+
+   (album_track_number 12)   
+
+   (pack_name "Mission of Burma Pack 01")  
+
+   (base_points 395732)
+; Added from RB3 DTB
+(song_id 1005345)
+(song_length 123636)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 tonic info
+(vocal_tonic_note 11)
+(song_tonality 0)
+)

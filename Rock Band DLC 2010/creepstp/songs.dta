@@ -1,0 +1,81 @@
+; RBDLC10 - 1006199 - Stone Temple Pilots - Creep
+(creepstp
+   (name "Creep")
+   (artist "Stone Temple Pilots")
+   (master TRUE)
+   (context 1439)
+   (song
+     (name        "songs/creepstp/creepstp")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -3.0 -3.0  -4.5  -3.8 -3.8  -7.0 -7.0  -2.0 -2.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/creepstp/creepstp.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 88400 111000)
+   (rank
+      (drum 175)
+      (guitar 158)
+      (bass 169)
+      (vocals 170)
+      (band 166)
+   )
+
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006199)         
+
+   (rating 2)           
+
+   (short_version 134000) 
+
+   (song_length 333650) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1992) 
+
+   (album_name "Core")   
+
+   (album_track_number 7)   
+
+   (pack_name "Stone Temple Pilots Pack 01")  
+
+   (base_points 566364)
+; Added RB3 tonic information
+(song_tonality 1)
+)

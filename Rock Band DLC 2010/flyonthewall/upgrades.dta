@@ -1,0 +1,7 @@
+(flyonthewall
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/flyonthewall_plus.mid")
+   (song_id 1006081)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

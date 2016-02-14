@@ -1,0 +1,87 @@
+(women
+   (name "Women")
+   (artist "Jamey Johnson")
+   (master TRUE)
+   (context 1363)
+   (song
+     (name        "songs/women/women")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -3.0 -3.0   -3.0 -3.0  -1.5  -3.0 -3.0  -3.0 -3.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/women/women.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 42148 72003)
+   (rank
+      (drum 160)
+      (guitar 286)
+      (bass 150)
+      (vocals 225)
+      (band 221)
+   )
+   
+   
+
+   
+
+   (solo (guitar vocal_percussion))
+
+   (genre country)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 0)
+   (song_tonality 0)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006124)         
+
+   (rating 2)           
+
+   (short_version 95434) 
+
+   (song_length 206925) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2008) 
+
+   (album_name "That Lonesome Song")   
+
+   (album_track_number 12)   
+
+   (pack_name "Going Country Pack 04")  
+
+   (base_points 358020)
+   
+
+)

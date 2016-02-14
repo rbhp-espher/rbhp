@@ -1,0 +1,7 @@
+(bigempty
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/bigempty_plus.mid")
+   (song_id 1006207)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

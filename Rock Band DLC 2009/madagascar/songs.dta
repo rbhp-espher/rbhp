@@ -1,0 +1,70 @@
+; RBDLC09 - 1005507 - Guns N' Roses - Madagacasr
+(madagascar
+   (name "Madagascar")
+   (artist "Guns N' Roses")
+   (master TRUE)
+   (context 657)
+   (song
+     (name        songs/madagascar/madagascar)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  0.0    -1.0  1.0      0.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5    -1.5 -1.5     -7.0   -6.5 -6.5  -3.0 -3.0  -3.5 -3.5 ))
+     (cores       (  -1     -1   -1       -1      1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/madagascar/madagascar.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 54800 79400)
+   (rank
+      (drum 246)
+      (guitar 285)
+      (bass 140)
+      (vocals 156)
+      (band 226)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "Chinese Democracy")   
+
+   (album_track_number 12)   
+
+   
+
+   (base_points 407480)
+; Added from RB3 DTB
+(song_id 1005507)
+(song_length 340909)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

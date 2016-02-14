@@ -1,0 +1,77 @@
+(iwontbackdown
+   (name "I Won't Back Down")
+   (artist "Tom Petty")
+   (master TRUE)
+   (context 844)
+   (song
+     (name        songs/iwontbackdown/iwontbackdown)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+  
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -2.0 -2.0   -8.2 -8.2  -3.5  -5.0 -5.0  -3.4 -3.4  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/iwontbackdown/iwontbackdown.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 36780 66780)
+   (rank
+      (drum 126)
+      (guitar 135)
+      (bass 149)
+      (vocals 178)
+      (band 146)
+   )
+   (genre classicrock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005748)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1989)
+   (album_name "Full Moon Fever")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 377332)
+; Added from RB3 DTB
+(song_length 178636)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

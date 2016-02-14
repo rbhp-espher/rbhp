@@ -1,0 +1,7 @@
+(insidethefire
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/insidethefire_plus.mid")
+	(song_id 1005126)
+        ;(rbhp_harmonies_author pksage)
+	;(rbhp_version 1)
+)

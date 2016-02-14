@@ -1,0 +1,8 @@
+(bluecollarman
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/bluecollarman_plus.mid")
+   (song_id 1005522)
+   ;(rbhp_author thomeval)
+  ;(rbhp_version 1)
+  ;(rbhp_effort 6)
+)

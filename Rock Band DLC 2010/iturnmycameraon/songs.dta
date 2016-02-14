@@ -1,0 +1,79 @@
+; RBDLC10 - 1006063 - Spoon - I Turn My Camera On
+(iturnmycameraon
+   (name "I Turn My Camera On")
+   (artist "Spoon")
+   (master TRUE)
+   (context 1250)
+   (song
+     (name        "songs/iturnmycameraon/iturnmycameraon")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -1.0   -3.0 -3.0  -4.0  -2.0 -2.0  -4.5 -4.5  -2.0 -2.0 ))
+     (cores       (  -1    -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/iturnmycameraon/iturnmycameraon.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 22941 52941)
+   (rank
+      (drum 138)
+      (guitar 131)
+      (bass 120)
+      (vocals 242)
+      (band 140)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006063)         
+
+   (rating 2)           
+
+   (short_version 110376) 
+
+   (song_length 216568) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Gimme Fiction") 
+
+   (album_track_number 3)   
+
+   (pack_name "Spoon Pack 01")  
+
+   (base_points 360678)
+; Added RB3 scroll information
+(song_tonality 1)
+)

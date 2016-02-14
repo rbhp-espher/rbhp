@@ -1,0 +1,9 @@
+; KMFDM - A Drug Against War
+(UGC_5001447
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001447_plus.mid")
+	(song_id 5001447)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

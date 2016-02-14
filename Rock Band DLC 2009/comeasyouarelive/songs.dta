@@ -1,0 +1,78 @@
+; RBDLC09 - 1005840 - Nirvana - Come As You Are (Live from MTV Unplugged)
+(comeasyouarelive
+   (name "Come As You Are (Live from MTV Unplugged)")
+   (artist "Nirvana")
+   (master TRUE)
+   (context 1015)
+   (song
+     (name        "songs/comeasyouarelive/comeasyouarelive")
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0   -3.0 -3.0  -0.5  -3.5 -3.5  -5.0 -5.0  -4.0 -4.0 ))
+     (cores       (  -1     -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/comeasyouarelive/comeasyouarelive.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 50000 80000)
+   (rank
+      (drum 204)
+      (guitar 205)
+      (bass 181)
+      (vocals 170)
+      (band 203)
+   )
+   (genre grunge)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005840)         
+
+   (rating 1)           
+
+   (short_version 117655) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1994)
+   (album_name "MTV Unplugged in New York")   
+
+   (album_track_number 2)   
+
+   (pack_name "Nirvana Pack 02")  
+
+   (base_points 476918)
+; Added from RB3 DTB
+(song_length 231818)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

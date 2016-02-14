@@ -1,0 +1,87 @@
+; RBDLC10 - 1006197 - Stone Temple Pilots - Crackerman
+(crackerman
+   (name "Crackerman")
+   (artist "Stone Temple Pilots")
+   (master TRUE)
+   (context 1438)
+   (song
+     (name        "songs/crackerman/crackerman")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0  -1.5  -3.8 -3.8  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/crackerman/crackerman.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 36837 66837)
+   (rank
+      (drum 221)
+      (guitar 240)
+      (bass 285)
+      (vocals 266)
+      (band 240)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 6)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006197)         
+
+   (rating 2)           
+
+   (short_version 104942) 
+
+   (song_length 197679) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1992) 
+
+   (album_name "Core")   
+
+   (album_track_number 11)   
+
+   (pack_name "Stone Temple Pilots Pack 01")  
+
+   (base_points 534248)
+: Added RB3 scroll information
+(song_tonality 1)
+)

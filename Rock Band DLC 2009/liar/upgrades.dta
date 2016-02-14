@@ -1,0 +1,7 @@
+(liar
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/liar_plus.mid")
+   (song_id 1005558)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

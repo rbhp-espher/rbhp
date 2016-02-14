@@ -1,0 +1,81 @@
+; RBDLC10 - 1006022 - Coheed and Cambria - Guns of Summer
+(gunsofsummer
+   (name "Guns of Summer")
+   (artist "Coheed and Cambria")
+   (master TRUE)
+   (context 1193)
+   (song
+     (name        "songs/gunsofsummer/gunsofsummer")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5 -1.5  -2.0 -2.0  -2.5 -2.5  -2.5 -2.5  -4.5 -4.5  -3.5 -3.5  -4.5 -4.5 ))
+     (cores       (  -1   -1    -1   -1    -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/gunsofsummer/gunsofsummer.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 65944 95944)
+   (rank
+      (drum 560)
+      (guitar 447)
+      (bass 232)
+      (vocals 408)
+      (band 518)
+   )
+   (genre prog)
+   (decade the10s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006022)         
+
+   (rating 1)           
+
+   (short_version 141000) 
+
+   (song_length 290000) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Year of the Black Rainbow")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 828634)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+;(song_tonality 0)
+)

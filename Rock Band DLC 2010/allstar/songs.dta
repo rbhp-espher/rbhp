@@ -1,0 +1,78 @@
+(allstar
+   (name "All Star")
+   (artist "Smash Mouth")
+   (master TRUE)
+   (context 1189)
+   (song
+     (name        "songs/allstar/allstar")
+        (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (-1.0  1.0   -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (-4.0 -4.0   -4.8 -4.8   -5.3 -5.3  -4.3 -4.3  -4.3 -4.3 ))
+     (cores       ( -1   -1     -1   -1      1    1    -1   -1    -1   -1  ))
+    (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/allstar/allstar.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 73229 103229)
+   (rank
+      (drum 263)
+      (guitar 172)
+      (bass 130)
+      (vocals 204)
+      (band 237)
+   )
+   (genre poprock)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005985)         
+
+   (rating 1)           
+
+   (short_version 96914) 
+
+   (song_length 203999) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1999)
+   (album_name "Astro Lounge")   
+
+   (album_track_number 5)   
+
+   (video_venues (video_01))
+   
+
+   (base_points 476027)
+; Added RB3 tonic info - thomeval notes this is a 6, original is a 9.
+;(vocal_tonic_note 6)
+(song_tonality 0)
+)

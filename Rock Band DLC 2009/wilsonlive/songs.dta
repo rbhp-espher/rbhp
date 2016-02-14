@@ -1,0 +1,72 @@
+; RBDLC09 - 1005576 - Phish - Wilson (Live)
+(wilsonlive
+   (name "Wilson (Live)")
+   (artist "Phish")
+   (master TRUE)
+   (context 715)
+   (song
+     (name        songs/wilsonlive/wilsonlive)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0 -2.0  -3.0 -3.0   -3.0 -3.0  -2.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/wilsonlive/wilsonlive.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 24659 54659)
+   (rank
+      (drum 369)
+      (guitar 298)
+      (bass 244)
+      (vocals 196)
+      (band 300)
+   )
+   (genre rock)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1995)
+   (album_name "A Live One")   
+
+   (album_track_number 8)   
+
+  
+
+   (base_points 393519)
+; Added from RB3 DTB
+(song_id 1005576)
+(song_length 247272)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

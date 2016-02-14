@@ -1,0 +1,71 @@
+; RBDLC08 - 1005380 - Miranda Lambert - Gunpowder & Lead
+(gunpowderandlead
+   (name "Gunpowder & Lead")
+   (artist "Miranda Lambert")
+   (master TRUE)
+   (context 534)
+   (song
+     (name        songs/gunpowderandlead/gunpowderandlead)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (    0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (   -0.5  -3.0 -3.0   -7.5 -7.5  -4.0  -6.0 -6.0  -3.5 -3.5  -6.5 -6.5 ))
+     (cores       (    -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/gunpowderandlead/gunpowderandlead.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 32740 60836)
+   (rank
+      (drum 169)
+      (guitar 320)
+      (bass 202)
+      (vocals 220)
+      (band 252)
+   )
+   (genre country)
+   (decade the00s)
+   (vocal_gender female)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2007)
+   (album_name "Crazy Ex-Girlfriend")   
+
+   (album_track_number 1)   
+
+   (pack_name "Going Country Pack 01")  
+
+   (base_points 378763)
+; Added from RB3 DTB
+(song_id 1005380)
+(song_length 190454)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 scroll information
+(vocal_tonic_note 7)
+(song_tonality 1)
+)

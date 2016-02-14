@@ -1,0 +1,74 @@
+(dragthewaters
+   (name "Drag the Waters")
+   (artist "Pantera")
+   (master TRUE)
+   (context 1239)
+   (song
+     (name        "songs/dragthewaters/dragthewaters")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( 0.0   -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (-0.5   -3.0 -3.0   -3.0 -3.0  -4.0  -3.5 -3.5  -5.0 -5.0  -4.0 -4.0 ))
+     (cores       ( -1     -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/dragthewaters/dragthewaters.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 80248 109969)
+   (rank
+      (drum 341)
+      (guitar 374)
+      (bass 260)
+      (vocals 240)
+      (band 362)
+   )
+   (genre metal)
+   (decade the90s)
+   (vocal_gender male) 
+   (vocal_tonic_note 1)
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   (song_id 1005960)         
+
+   (rating 2)           
+
+   (short_version 149299) 
+
+   (song_length 300441) 
+
+   
+
+   (album_art TRUE) 
+
+   (year_released 1996)
+   (album_name "The Great Southern Trendkill")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 653959)
+; Added from RB3 DTB
+(solo (guitar vocal_percussion))
+(format 10)
+)

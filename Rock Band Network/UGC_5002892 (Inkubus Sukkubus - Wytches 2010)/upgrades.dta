@@ -1,0 +1,9 @@
+; Inkubus Succubus - Wytches
+(UGC_5002892
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5002892_plus.mid")
+	(song_id 5002892)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author espher)
+	;(rbhp_version 1)
+)

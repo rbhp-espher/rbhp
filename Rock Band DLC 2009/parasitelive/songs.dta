@@ -1,0 +1,79 @@
+; RBDLC09 - 1005721 - KISS - Parasite (Live)
+(parasitelive
+   (name "Parasite (Live)")
+   (artist "KISS")
+   (master TRUE)
+   (context 810)
+   (song
+     (name        songs/parasitelive/parasitelive)
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5 -1.5  -3.0 -3.0   -3.2 -3.2  -3.4  -3.0 -3.0  -2.4 -2.4  -5.0 -5.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/parasitelive/parasitelive.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 41790 71790)
+   (rank
+      (drum 381)
+      (guitar 373)
+      (bass 346)
+      (vocals 249)
+      (band 375)
+   )
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005721)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art FALSE) 
+
+   (year_released 1975)
+   (album_name "Dressed To Kill Tour")   
+
+   (album_track_number 3)   
+
+   (pack_name "KISS Pack 01")  
+
+   (base_points 491934)
+; Added from RB3 DTB
+(song_length 211363)		
+(solo (drum guitar vocal_percussion))
+(format 10)		
+(game_origin rb1_dlc)		
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

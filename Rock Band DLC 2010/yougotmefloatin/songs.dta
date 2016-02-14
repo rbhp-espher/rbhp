@@ -1,0 +1,81 @@
+; RBDLC10 - 1005995 - The Jimi Hendrix Experience - You Got Me Floatin'
+(yougotmefloatin
+   (name "You Got Me Floatin'")
+   (artist "The Jimi Hendrix Experience")
+   (master TRUE)
+   (context 1173)
+   (song
+     (name        "songs/yougotmefloatin/yougotmefloatin")
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -0.4  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.5  -4.5 -4.5   -4.5 -4.5  -4.5 -4.5  -3.2 -3.2  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/yougotmefloatin/yougotmefloatin.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 30000 60000)
+   (rank
+      (drum 473)
+      (guitar 368)
+      (bass 360)
+      (vocals 270)
+      (band 400)
+   )
+   (genre classicrock)
+   (decade the60s)
+   (vocal_gender male)
+   ;(vocal_tonic_note 8)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005995)         
+
+   (rating 1)           
+
+   (short_version 117000) 
+
+   (song_length 175000) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1967)
+   (album_name "Axis: Bold as Love")   
+
+   (album_track_number 8)   
+
+   
+
+   (base_points 469898)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+; Added RB3 scroll information
+(vocal_tonic_note 8)
+(song_tonality 1)
+)

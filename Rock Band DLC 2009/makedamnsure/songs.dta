@@ -1,0 +1,71 @@
+; RBDLC09 - 1005557 - Taking Back Sunday - MakeDamnSure
+(makedamnsure
+   (name "MakeDamnSure")
+   (artist "Taking Back Sunday")
+   (master TRUE)
+   (context 707)
+   (song
+     (name        songs/makedamnsure/makedamnsure)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0   -1.0  1.0   -1.0  1.0   -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0 -1.0   -5.0 -5.0   -4.5 -4.5   -3.5 -3.5  -6.0 -6.0 ))
+     (cores       (  -1   -1     -1   -1      1    1     -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/makedamnsure/makedamnsure.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 37337 66780)
+   (rank
+      (drum 178)
+      (guitar 199)
+      (bass 145)
+      (vocals 189)
+      (band 179)
+   )
+   (genre emo)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2006)
+   (album_name "Louder Now")   
+
+   (album_track_number 3)   
+
+   (pack_name "Taking Back Sunday Pack 01")  
+
+   (base_points 525382)
+; Added from RB3 DTB
+(song_id 1005557)
+(song_length 210454)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 scroll information
+(vocal_tonic_note 6)
+(song_tonality 0)
+)

@@ -1,0 +1,58 @@
+; RBDLC08 - 1005103 - Blondie - Hanging on the Telephone
+(hangingonthetelephone
+   (name "Hanging on the Telephone")
+   (artist "Blondie")
+   (master TRUE)
+   (context 194)
+   (song
+     (name        songs/hangingonthetelephone/hangingonthetelephone)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     (vocal_parts 3)
+     ;                  K          SN       CYMBALS      BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5 -0.5  -1.0 -1.0   -2.0 -2.0  -4.0 -4.0  -4.8 -4.8  -1.7 -1.7  -3.0 -3.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/hangingonthetelephone/hangingonthetelephone.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 06234 36083)
+   (rank
+      (drum 182)
+      (guitar 230)
+      (bass 230)
+      (vocals 110)
+      (band 175)
+   )
+   (genre poprock)
+   (decade the70s)
+   (downloaded TRUE)
+   (vocal_gender female)
+; Added from RB3 DTB
+(song_id 1005103)
+(song_length 145909)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 1)
+(year_released 1978)
+(alternate_path TRUE)
+(album_art TRUE)
+(album_name "Parallel Lines")
+(album_track_number 1)
+)
+

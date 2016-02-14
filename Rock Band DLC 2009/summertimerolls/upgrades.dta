@@ -1,0 +1,7 @@
+(summertimerolls
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/summertimerolls_plus.mid")
+   (song_id 1005532)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

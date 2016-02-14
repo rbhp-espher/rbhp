@@ -1,0 +1,8 @@
+(writingonthewall
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/writingonthewall_plus.mid")
+   (song_id 1005952)
+  ;(rbhp_harmonies_author espher) 
+  ;(rbhp_fix_drums_author GreenPanda12)
+  ;(rbhp_version 1)
+)

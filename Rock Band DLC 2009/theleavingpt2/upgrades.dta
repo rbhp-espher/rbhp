@@ -1,0 +1,7 @@
+(theleavingpt2
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/theleavingpt2_plus.mid")
+   (song_id 1005852)
+   ;(rbhp_harmonies_author farottone)
+  ;(rbhp_version 1)
+)

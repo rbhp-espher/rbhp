@@ -1,0 +1,61 @@
+; RBDLC07 - 1005009 - Queens of the Stone Age - 3's & 7's
+(3sand7s
+   (name "3's & 7's")  
+   (artist "Queens of the Stone Age")
+   (master TRUE)
+   (context 87)
+   (song
+     (name        songs/3sand7s/3sand7s)
+     (tracks          
+        ((drum (0 1))  
+         (bass 2) 
+         (guitar (3 4))
+         (vocals (5 6))  
+        ) 
+     )
+	(vocal_parts 3)
+     ;                 DRUMS     BASS   GUITAR     VOCALS      TRKS     
+     (pans        (  -1.0  1.0   0.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -1.0 -1.0  -1.0   -2.0 -2.0  -2.5 -2.5  -2.0 -2.0 )) ; TRKS were -4 -4
+     (cores       (   -1   -1    -1      1   1     -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/3sand7s/3sand7s.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 92200 122000)
+   (rank
+      (drum 280)
+      (guitar 250)
+      (bass 250)
+      (vocals 150)
+      (band 230)
+   )
+   (genre alternative)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005009)
+(song_length 220000)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 2007)
+(alternate_path TRUE)
+(album_art TRUE)
+(album_name "Era Vulgaris")
+(album_track_number 8)
+; Added RB3 scroll information 
+(vocal_tonic_note 10)
+(song_tonality 1)
+)
+

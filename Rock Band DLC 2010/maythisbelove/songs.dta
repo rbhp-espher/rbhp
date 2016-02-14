@@ -1,0 +1,89 @@
+; RBDLC10 - 1006193 - The Jimi Hendrix Experience - May This Be Love
+(maythisbelove
+   (name "May This Be Love")
+   (artist "The Jimi Hendrix Experience")
+   (master TRUE)
+   (context 1426)
+   (song
+     (name        "songs/maythisbelove/maythisbelove")
+     (tracks
+        ((drum (0 1))
+         (bass 2)
+         (guitar (3 4))
+         (vocals (5 6))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        ( -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.7 -3.7  -0.5  -3.7 -3.7  -4.7 -4.7  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/maythisbelove/maythisbelove.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents 50)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 20947 50947)
+   (rank
+      (drum 285)
+      (guitar 309)
+      (bass 201)
+      (vocals 213)
+      (band 302)
+   )
+
+   
+
+   
+
+   (solo (guitar vocal_percussion))
+
+   (genre classicrock)
+   (decade the60s)
+   (vocal_gender male)
+   ;(vocal_tonic_note 2)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006193)         
+
+   (rating 1)           
+
+   (short_version 98475) 
+
+   (song_length 200320) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1967) 
+
+   (album_name "Are You Experienced")   
+
+   (album_track_number 5)   
+
+   
+
+   (base_points 359640)
+   
+
+; Added RB3 scroll information
+(vocal_tonic_note 3)
+(song_tonality 0)
+)

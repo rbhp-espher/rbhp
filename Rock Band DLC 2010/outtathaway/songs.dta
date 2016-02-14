@@ -1,0 +1,82 @@
+; RBDLC10 - 1006069 - The Vines - Outtathaway
+(outtathaway
+   (name "Outtathaway")
+   (artist "The Vines")
+   (master TRUE)
+   (context 1291)
+   (song
+     (name        "songs/outtathaway/outtathaway")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  0.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.3 -1.5   -4.5 -4.5  -1.1  -4.1 -4.1  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/outtathaway/outtathaway.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 30000 60000)
+   (rank
+      (drum 279)
+      (guitar 221)
+      (bass 235)
+      (vocals 185)
+      (band 249)
+   )
+
+   (solo  (guitar))  
+
+
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006069)         
+
+   (rating 1)           
+
+   (short_version 85751) 
+
+   (song_length 182182) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2002)
+   (album_name "Highly Evolved")   
+
+   (album_track_number 3)   
+
+   (pack_name "The Vines Pack 01")  
+
+   (base_points 473076)
+;(song_tonality 0)
+)

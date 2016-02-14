@@ -1,0 +1,90 @@
+(childrenoftherevolution
+   (name "Children of the Revolution")
+   (artist "T. Rex")
+   (master TRUE)
+   (context 1419)
+   (song
+     (name        "songs/childrenoftherevolution/childrenoftherevolution")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals 7)
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0   0.0  -1.0  1.0    0.0   -1.0  1.0 ))
+     (vols        ( -0.5  -0.5   -3.5 -3.5  -0.5  -3.5 -3.5   -1.5   -4.0 -4.0 ))
+     (cores       (  -1    -1     -1   -1    -1     1    1     -1     -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/childrenoftherevolution/childrenoftherevolution.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 27221 57221)
+   (rank
+      (drum 153)
+      (guitar 142)
+      (bass 136)
+      (vocals 175)
+      (band 145)
+   )
+   
+   
+
+   
+
+   
+
+
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006135)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+   (song_length 150784) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1973) 
+
+   (year_recorded 1994) 
+
+   (album_name "Tanx")   
+
+   (album_track_number 14)   
+
+   
+
+   (base_points 253505)
+; Added RB3 scroll information   
+
+(song_tonality 1)
+)

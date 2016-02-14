@@ -1,0 +1,82 @@
+; RBDLC10 - 1005938 - The Who - The Who Super Bowl S-mashup
+(superbowlmedley
+   (name "The Who Super Bowl S-mashup")
+   (artist "The Who")
+   (master TRUE)
+   (context 1086)
+   (song
+     (name        "songs/superbowlmedley/superbowlmedley")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0  -0.5  -1.0  1.0  -1.0  1.0  -1.0  1.0 )) 
+
+     (vols        ( -1.5  -1.5 -1.5   -3.5 -3.5  -5.0  -3.0 -3.0  -3.5 -3.5  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/superbowlmedley/superbowlmedley.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 522611 552611)
+   (rank
+      (drum 445)
+      (guitar 335)
+      (bass 330)
+      (vocals 265)
+      (band 398)
+   )
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 11)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005938)         
+
+   (rating 1)           
+
+   (short_version 174428) 
+
+   (song_length 768518) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   
+
+   
+
+   
+
+   (base_points 1359856)
+; Added RB3 tonic information
+(song_tonality 1)
+; Added from RB3 DTB
+(solo (drum))
+(format 10)
+(extra_authoring disc_update)
+)

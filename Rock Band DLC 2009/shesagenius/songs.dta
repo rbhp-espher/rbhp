@@ -1,0 +1,77 @@
+(shesagenius
+   (name "She's a Genius")
+   (artist "Jet")
+   (master TRUE)
+   (context 845)
+   (song
+     (name        songs/shesagenius/shesagenius)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.7  -0.7 -0.7   -0.5 -0.5  -3.7  -1.5 -1.5  -1.7 -1.7  -2.5 -2.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/shesagenius/shesagenius.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 94600 123120)
+   (rank
+      (drum 347)
+      (guitar 266)
+      (bass 188)
+      (vocals 197)
+      (band 298)
+   )
+   (genre alternative)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005773)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Shaka Rock")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 510087)
+; Added from RB3 DTB
+(song_length 184545)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

@@ -1,0 +1,8 @@
+; Five Finger Death Punch - Burn It Down
+(UGC_5001105
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001105_plus.mid")
+	(song_id 5001105)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

@@ -1,0 +1,80 @@
+(justfortonight
+   (name "Just for Tonight")
+   (artist "One Night Only")
+   (master TRUE)
+   (context 912)
+   (song
+     (name        "songs/justfortonight/justfortonight")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -1.5 -1.5   -5.0 -5.0  -5.0  -3.5 -3.5  -4.3 -4.3  -5.5 -5.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/justfortonight/justfortonight.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 74675 104675)
+   (rank
+      (drum 312)
+      (guitar 248)
+      (bass 166)
+      (vocals 173)
+      (band 277)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005867)         
+
+   (rating 1)           
+
+   (short_version 118332) 
+
+   (song_length 263181) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "Started a Fire")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 581807)
+; Added from RB3 DTB
+(solo (drum))
+(format 10)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(song_tonality 0)
+)

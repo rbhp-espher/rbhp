@@ -1,0 +1,66 @@
+; RBDLC09 - 1005569 - Ministry - The Great Satan
+(thegreatsatan
+   (name "The Great Satan")
+   (artist "Ministry")
+   (master TRUE)
+   (context 710)
+   (song
+     (name        songs/thegreatsatan/thegreatsatan)
+     (vocal_parts 2)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (   0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0    0.0  -1.0  1.0 ))
+     (vols        (  -0.5  -2.0 -2.0   -4.5 -4.5  -5.0  -4.5 -4.5   -1.0  -2.0 -2.0 ))
+     (cores       (   -1    -1   -1     -1   -1    -1     1    1     -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/thegreatsatan/thegreatsatan.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell3_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 38200 67131)
+   (rank
+      (drum 421)
+      (guitar 480)
+      (bass 339)
+      (vocals 140)
+      (band 434)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE)
+   (year_released 2006)
+   (album_name "Rio Grande Blood")
+   (album_track_number 6)
+   (pack_name "Ministry Pack 01")
+   (base_points 606822)
+; Added from RB3 DTB
+(song_id 1005569)
+(song_length 198181)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+;(vocal_tonic_note 0)
+;(song_tonality 0)
+)

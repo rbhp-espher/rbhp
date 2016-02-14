@@ -1,0 +1,7 @@
+(americanmusic
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/americanmusic_plus.mid")
+   (song_id 1006024)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

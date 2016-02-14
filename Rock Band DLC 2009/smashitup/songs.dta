@@ -1,0 +1,78 @@
+(smashitup
+   (name "Smash It Up (Part II)")
+   (artist "The Damned")
+   (master TRUE)
+   (context 998)
+   (song
+     (name        "songs/smashitup/smashitup")
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9)) 
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -1.0 -1.0   -4.0 -4.0  -5.5  -6.0 -6.0  -2.0 -2.0  -6.0 -6.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/smashitup/smashitup.mid")
+   )
+   (tuning_offset_cents 18)
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 29907 59907)
+   (rank
+      (drum 256)
+      (guitar 271)
+      (bass 213)
+      (vocals 157)
+      (band 204)
+   )
+   (genre punk)
+   (decade the70s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005655)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1979)
+   (album_name "Machine Gun Etiquette")   
+
+   (album_track_number 12)   
+
+   
+
+   (base_points 456697)
+; Added from RB3 DTB
+(song_length 169090)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 7)
+(song_tonality 0)
+)

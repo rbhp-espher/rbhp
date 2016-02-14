@@ -1,0 +1,7 @@
+(rockinamerica
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/rockinamerica_plus.mid")
+   (song_id 1005822)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

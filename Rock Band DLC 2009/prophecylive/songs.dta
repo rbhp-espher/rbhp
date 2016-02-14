@@ -1,0 +1,79 @@
+; RBDLC09 - 1005700 - Judas Priest - Prophecy (Live)
+(prophecylive
+   (name "Prophecy (Live)")
+   (artist "Judas Priest")
+   (master TRUE)
+   (context 788)
+   (song
+     (name        songs/prophecylive/prophecylive)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -2.1 -2.1   -1.3 -1.3  -2.0  -1.2 -1.2  -3.2 -3.2  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/prophecylive/prophecylive.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   ;(preview 109000 140000)
+   (rank
+      (drum 221)
+      (guitar 386)
+      (bass 221)
+      (vocals 159)
+      (band 268)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+   (game_origin rb1) 
+
+   
+   (song_id 1005700)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "A Touch of Evil - Live")   
+
+   (album_track_number 10)   
+
+   (pack_name "Judas Priest Pack 01")  
+
+   (base_points 627166)
+; Added from RB3 DTB
+(preview 109000 139000)
+(song_length 358636)	
+(solo (guitar))	
+(format 10)	
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

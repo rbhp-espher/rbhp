@@ -1,0 +1,8 @@
+; Lacuna Coil - Survive
+(UGC_5001288
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001288_plus.mid")
+	(song_id 5001288)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

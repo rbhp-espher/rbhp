@@ -1,0 +1,83 @@
+; RBDLc10 - 1006083 - Miley Cyrus - Can't Be Tamed
+(cantbetamed
+   (name "Can't Be Tamed")
+   (artist "Miley Cyrus")
+   (master TRUE)
+   (context 1264)
+   (song
+     (name        "songs/cantbetamed/cantbetamed")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0 -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.3 -3.3 -1.3 -1.3   -1.3 -1.3  -1.8 -1.8  -1.8 -1.8  -2.0 -2.0  -5.8 -5.8 ))
+     (cores       (  -1   -1   -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/cantbetamed/cantbetamed.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 49226 79226)
+   (rank
+      (drum 201)
+      (guitar 432)
+      (bass 120)
+      (vocals 241)
+      (band 301)
+   )
+   (genre poprock)
+   (decade the10s)
+   (vocal_gender female)
+   ;(vocal_tonic_note 11)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006083)         
+
+   (rating 2)           
+
+   (short_version 134992) 
+
+   (song_length 174367) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Can't Be Tamed")   
+
+   (album_track_number 3)   
+
+   (pack_name "Miley Cyrus Pack 01")  
+
+   (base_points 411004)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+; Added RB3 scroll information
+(vocal_tonic_note 11)
+(song_tonality 1)
+)

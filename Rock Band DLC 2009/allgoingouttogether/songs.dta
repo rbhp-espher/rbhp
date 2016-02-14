@@ -1,0 +1,81 @@
+; RBDLC09 - 1005710 - Big Dipper - All Going Out Together
+(allgoingouttogether
+   (name "All Going Out Together")
+   (artist "Big Dipper")
+   (master TRUE)
+   (context 780)
+   (song
+     (name        songs/allgoingouttogether/allgoingouttogether)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (   0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -0.2  -0.8 -0.8   -2.3 -2.3  -2.3  -3.8 -3.8  -2.8 -2.8  -3.3 -3.3  ))
+     (cores       (   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/allgoingouttogether/allgoingouttogether.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 39290 69290)
+   (rank
+      (drum 178)
+      (guitar 187)
+      (bass 167)
+      (vocals 181)
+      (band 180)
+   )
+   (genre indierock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+   (game_origin rb1) 
+
+   
+   (song_id 1005710)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+;   (year_released 2008)
+   (album_name "Supercluster: The Big Dipper Anthology")   
+
+   (album_track_number 6)   
+
+   (pack_name "Big Dipper Pack 01")  
+
+   (base_points 402351)
+; Added from RB3 DTB
+(song_length 182727)
+(solo (vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(year_released 1987)
+(year_recorded 2008)
+(album_track_number 12)
+; Added RB3 scroll information
+(vocal_tonic_note 0)
+(song_tonality 0)
+)

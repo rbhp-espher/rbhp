@@ -1,0 +1,7 @@
+(running
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/running_plus.mid")
+   (song_id 1005368)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

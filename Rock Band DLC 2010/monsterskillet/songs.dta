@@ -1,0 +1,78 @@
+(monsterskillet
+   (name "Monster")
+   (artist "Skillet")
+   (master TRUE)
+   (context 1183)
+   (song
+     (name        "songs/monsterskillet/monsterskillet")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.7  -4.5 -4.5   -4.5 -4.5  -1.2  -3.0 -3.0  -4.5 -4.5  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/monsterskillet/monsterskillet.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 42817 72817)
+   (rank
+      (drum 205)
+      (guitar 190)
+      (bass 168)
+      (vocals 176)
+      (band 220)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 0)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006003)         
+
+   (rating 1)           
+
+   (short_version 92409) 
+
+   (song_length 179253) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Awake")   
+
+   (album_track_number 2)   
+
+   (pack_name "Fired Up Pack 01")  
+
+   (base_points 471922)
+; Added RB3 tonic info
+(song_tonality 1)
+)

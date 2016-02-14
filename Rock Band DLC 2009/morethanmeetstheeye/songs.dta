@@ -1,0 +1,80 @@
+﻿; RBDLC09 - 1005790 - Testament - More Than Meets the Eye
+(morethanmeetstheeye
+   (name "More Than Meets the Eye")
+   (artist "Testament")
+   (master TRUE)
+   (context 957)
+   (song
+     (name        songs/morethanmeetstheeye/morethanmeetstheeye)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -2.5 -2.5   -3.5 -3.5  -2.0  -3.5 -3.5  -2.8 -2.8  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/morethanmeetstheeye/morethanmeetstheeye.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 109969 139969)
+   (rank
+      (drum 370)
+      (guitar 433)
+      (bass 515)
+      (vocals 203)
+      (band 397)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005790)           
+
+   (rating 2)           
+
+   (short_version 137787) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "The Formation of Damnation")   
+
+   (album_track_number 2)   
+
+   (pack_name "Brütal Legend Pack")  
+
+   (base_points 800662)
+; Added from RB3 DTB
+(song_length 274090)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(extra_authoring disc_update)
+(encoding latin1)
+; Added RB3 scroll information
+(vocal_tonic_note 3)
+(song_tonality 1)
+)

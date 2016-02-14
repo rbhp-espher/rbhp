@@ -1,0 +1,5 @@
+(epic
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/epic_plus.mid")
+	(song_id 14)
+)

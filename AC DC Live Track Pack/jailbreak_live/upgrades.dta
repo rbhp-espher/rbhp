@@ -1,0 +1,7 @@
+(jailbreak_live
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/jailbreak_live_plus.mid")
+   (song_id 1005292)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

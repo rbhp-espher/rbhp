@@ -1,0 +1,7 @@
+(kryptonite
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/kryptonite_plus.mid")
+   (song_id 1005615)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

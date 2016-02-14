@@ -1,0 +1,68 @@
+(aloneinmyhead
+   (name "Alone in My Head")
+   (artist "Hautewerk")
+   (master TRUE)
+   (context 667)
+   (song
+     (name        songs/aloneinmyhead/aloneinmyhead)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals 7)
+        )
+     )
+     
+
+     (pans        (  0.0   0.0  -1.0  1.0   0.0  -1.0  1.0   0.0  -1.0  1.0 ))
+     (vols        ( -1.0  -0.5  -3.0 -3.0  -4.0  -4.5 -4.5  -3.0  -2.5 -2.5 ))
+     (cores       (  -1    -1    -1   -1    -1     1    1    -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/aloneinmyhead/aloneinmyhead.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 113894 143894)
+   (rank
+      (drum 119)
+      (guitar 192)
+      (bass 135)
+      (vocals 123)
+      (band 135)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+   (album_art TRUE) 
+
+   (year_released 2006)
+   (album_name "Stop Start Again")   
+
+   (album_track_number 3)   
+
+   (pack_name "Hautewerk Pack 01")  
+
+   (base_points 365115)
+; Added from RB3 DTB
+(song_id 1005520)
+(song_length 247727)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

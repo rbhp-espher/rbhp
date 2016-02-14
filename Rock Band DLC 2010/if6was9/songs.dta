@@ -1,0 +1,82 @@
+; RBDLC10 - 1005993 - The Jimi Hendrix Experience - If 6 Was 9
+(if6was9
+   (name "If 6 Was 9")
+   (artist "The Jimi Hendrix Experience")
+   (master TRUE)
+   (context 1172)
+   (song
+     (name        "songs/if6was9/if6was9")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        ( 0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (-2.5  -2.7 -2.7  -6.5  -6.5 -6.5  -3.0 -3.0  -4.0 -4.0 ))
+     (cores       ( -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/if6was9/if6was9.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents -48)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 34000 64000)
+   (rank
+      (drum 532)
+      (guitar 361)
+      (bass 378)
+      (vocals 254)
+      (band 503)
+   )
+   (genre classicrock)
+   (decade the60s)
+   (vocal_gender male)
+   (vocal_tonic_note 3)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005993)         
+
+   (rating 1)           
+
+   (short_version 109500) 
+
+   (song_length 340454) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1967)
+   (album_name "Axis: Bold as Love")   
+
+   (album_track_number 7)   
+
+   
+
+   (base_points 614977)
+; Added from RB3 DTB
+(solo (drum guitar))
+(format 10)
+; Added RB3 scroll information
+(vocal_tonic_note 3)
+(song_tonality 1)
+)

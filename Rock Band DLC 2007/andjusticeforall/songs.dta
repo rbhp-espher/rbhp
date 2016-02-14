@@ -1,0 +1,63 @@
+; RBDLC07 - 1005015 - Metallica - ...And Justice for All
+(andjusticeforall
+   (name "...And Justice for All")  
+   (artist "Metallica")
+   (master TRUE)
+   (context 93)
+   (song
+     (name        songs/andjusticeforall/andjusticeforall)
+     (tracks          
+        ((drum (0 1 2 3 4))
+         (bass 5) 
+         (guitar (6 7))
+         (vocals (8 9))  
+        ) 
+     )
+     (vocal_parts 2)
+     ;                 K      SN     CYMBALS   BASS  GUITAR    VOCALS    TRKS
+     (pans        (   0.0 -1.0  1.0 -1.0  1.0  0.0 -1.0  1.0 -1.0  1.0 -1.0  1.0))
+     (vols        (   0.0 -1.0 -1.0 -1.5 -1.5 -4.5 -4.5 -4.0 -3.0 -3.0 -3.0 -3.0))
+     (cores       (   -1   -1   -1   -1   -1   -1    1    1   -1   -1   -1   -1 ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/andjusticeforall/andjusticeforall.mid)
+     
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoFast)
+   ;(preview 156300 189500)
+   (rank
+      (drum 430)
+      (guitar 400)
+      (bass 400)
+      (vocals 230)
+      (band 375)
+   )
+   (genre metal)
+   (decade the80s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005015)	
+(preview 156300 186300)
+(song_length 591818)	
+(solo (guitar vocal_percussion))	
+(format 10)	
+(version 1)	
+(game_origin rb1_dlc)	
+(rating 2)	
+(year_released 1988)	
+(alternate_path TRUE)	
+(extra_authoring disc_update)	
+(album_art TRUE)	
+(album_name "...And Justice for All")	
+(album_track_number 2)	
+; Added RB3 scroll information
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

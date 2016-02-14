@@ -1,0 +1,7 @@
+(myoldschool
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/myoldschool_plus.mid")
+   (song_id 1005548)
+   ;(rbhp_harmonies_author Espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,7 @@
+(freeandeasy
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/freeandeasy_plus.mid")
+   (song_id 1005381)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

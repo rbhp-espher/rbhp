@@ -1,0 +1,71 @@
+; RBDLC09 - 1005567 - The Zombies - Tell Her No
+(tellherno
+   (name "Tell Her No")
+   (artist "The Zombies")
+   (master TRUE)
+   (context 712)
+   (song
+     (name        songs/tellherno/tellherno)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1))
+         (bass 2)
+         (guitar 3)
+         (vocals (4 5))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0   0.0  -0.5  -1.0  1.0   0.7  ))
+     (vols        ( -3.5 -3.5  -1.3  -4.0  -3.0 -3.0  -3.5  ))
+     (cores       (  -1   -1    -1     1    -1   -1    -1   ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/tellherno/tellherno.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 41000 71000)
+   (rank
+      (drum 211)
+      (guitar 204)
+      (bass 152)
+      (vocals 194)
+      (band 201)
+   )
+   (genre poprock)
+   (decade the60s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1965)
+   (album_name "The Zombies")   
+
+   (album_track_number 7)   
+
+   (video_venues (video_01))
+   
+
+   (base_points 275939)
+; Added from RB3 DTB
+(song_id 1005567)
+(song_length 129545)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 scroll information
+(vocal_tonic_note 4)
+(song_tonality 0)
+)

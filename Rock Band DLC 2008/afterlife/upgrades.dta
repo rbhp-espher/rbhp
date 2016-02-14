@@ -1,0 +1,5 @@
+(afterlife
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/afterlife_plus.mid")
+	(song_id 1005132)
+)

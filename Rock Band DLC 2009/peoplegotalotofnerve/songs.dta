@@ -1,0 +1,71 @@
+; RBDLC09 - 1005435 - Neko Case - People Got a Lotta Nerve
+(peoplegotalotofnerve
+   (name "People Got a Lotta Nerve")
+   (artist "Neko Case")
+   (master TRUE)
+   (context 591)
+   (song
+     (name        songs/peoplegotalotofnerve/peoplegotalotofnerve)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -2.0 -2.0   -2.0 -2.0  -2.0  -2.0 -2.0  -1.5 -1.5  -2.0 -2.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/peoplegotalotofnerve/peoplegotalotofnerve.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 34481 64481)
+   (rank
+      (drum 207)
+      (guitar 208)
+      (bass 125)
+      (vocals 205)
+      (band 201)
+   )
+   (genre country)
+   (decade the00s)
+   (vocal_gender female)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Middle Cyclone")   
+
+   (album_track_number 3)   
+
+   (pack_name "Alt Country PAck 01")  
+
+   (base_points 307332)
+; Added from RB3 DTB
+(song_id 1005435)
+(song_length 156363)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 1)
+(song_tonality 0)
+)

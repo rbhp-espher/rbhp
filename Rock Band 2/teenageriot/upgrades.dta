@@ -1,0 +1,5 @@
+(teenageriot
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/teenageriot_plus.mid")
+	(song_id 315)
+)

@@ -1,0 +1,87 @@
+; RBDLC10 - 1006200 - Stone Temple Pilots - Trippin' on a Hole in a Paper Heart
+(trippinonahole
+   (name "Trippin' on a Hole in a Paper Heart")
+   (artist "Stone Temple Pilots")
+   (master TRUE)
+   (context 1442)
+   (song
+     (name        "songs/trippinonahole/trippinonahole")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -4.0 -4.0  -0.5  -2.0 -2.0  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/trippinonahole/trippinonahole.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 38591 68591)
+   (rank
+      (drum 300)
+      (guitar 339)
+      (bass 331)
+      (vocals 233)
+      (band 317)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 6)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006200)         
+
+   (rating 2)           
+
+   (short_version 115501) 
+
+   (song_length 179418) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1996) 
+
+   (album_name "Tiny Music... Songs from the Vatican Gift Shop")   
+
+   (album_track_number 7)   
+
+   (pack_name "Stone Temple Pilots Pack 01")  
+
+   (base_points 505055)
+; Added RB3 Scroll Information
+(song_tonality 0)
+)

@@ -1,0 +1,77 @@
+; RBDLC09 - 1005835 - SpongeBob SquarePants - A Day Like This
+(adaylikethis
+   (name "A Day Like This")
+   (artist "SpongeBob SquarePants")
+   (master TRUE)
+   (context 994)
+   (song
+     (name        "songs/adaylikethis/adaylikethis")
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1))
+         (bass 2)
+         (guitar (3 4))
+         (vocals (5 6))
+        )
+     )
+     
+
+     (pans        (  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  0.0 ))
+     (vols        (  -3.5 -3.5  -3.5  -3.5 -3.5  -3.0 -3.0 -3.5 ))
+     (cores       (   -1   -1    -1     1    1    -1   -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/adaylikethis/adaylikethis.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 20224 50224)
+   (rank
+      (drum 177)
+      (guitar 145)
+      (bass 178)
+      (vocals 194)
+      (band 175)
+   )
+   (genre other)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005835)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "SpongeBob's Greatest Hits")   
+
+   (album_track_number 18)   
+
+   (pack_name "SpongeBob SquarePants Pack 02")  
+
+   (base_points 267510)
+; Added from RB3 DTB
+(song_length 94545)
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

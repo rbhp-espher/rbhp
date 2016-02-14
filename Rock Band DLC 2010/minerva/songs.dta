@@ -1,0 +1,69 @@
+(minerva
+   (name "Minerva")
+   (artist "Deftones")
+   (master TRUE)
+   (context 1256)
+   (song
+     (name        "songs/minerva/minerva")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.7  -3.7 -3.7   -3.5 -3.5  -0.5  -3.0 -3.0  -3.2 -3.2  -3.7 -3.7 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/minerva/minerva.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 49133 79133)
+   (rank
+      (drum 149)
+      (guitar 169)
+      (bass 222)
+      (vocals 233)
+      (band 199)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 1)
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   (song_id 1006066)         
+
+   (rating 2)           
+
+   (short_version 148564) 
+
+   (song_length 265043) 
+
+   
+
+   (album_art TRUE) 
+
+   (year_released 2003)
+   (album_name "Deftones")   
+
+   (album_track_number 3)
+)

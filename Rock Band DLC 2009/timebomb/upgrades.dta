@@ -1,0 +1,7 @@
+(timebomb
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/timebomb_plus.mid")
+   (song_id 1005437)
+   ;(rbhp_harmonies_author espher)
+   ;(rbhp_version 1)
+)

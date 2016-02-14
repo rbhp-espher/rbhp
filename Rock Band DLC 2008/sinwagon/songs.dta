@@ -1,0 +1,72 @@
+; RBDLC08 - 1005377 - Dixie Chicks - Sin Wagon
+(sinwagon
+   (name "Sin Wagon")
+   (artist "Dixie Chicks")
+   (master TRUE)
+   (context 537)
+   (song
+     (name        songs/sinwagon/sinwagon)
+     (vocal_parts 2)
+(tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals 7)
+        )
+     )
+     
+
+     (pans        (    0.0    0.0    -1.0  1.0   0.0  -1.0  1.0   0.0   -1.0  1.0 ))
+     (vols        (   -0.5   -0.5    -3.0 -3.0  -4.0  -3.2 -3.2  -0.8   -4.0 -4.0 ))
+     (cores       (    -1     -1      -1   -1    -1     1    1    -1     -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/sinwagon/sinwagon.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 69965 97965)
+   (rank
+      (drum 350)
+      (guitar 408)
+      (bass 260)
+      (vocals 280)
+      (band 370)
+   )
+   (genre country)
+   (decade the90s)
+   (vocal_gender female)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1999)
+   (album_name "Fly")   
+
+   (album_track_number 8)   
+
+   (pack_name "Going Country Pack 01")  
+
+   (base_points 546256)
+; Added from RB3 DTB
+(song_id 1005377)
+(song_length 219545)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 scroll information
+;(vocal_tonic_note 0)
+;(song_tonality 0)
+)

@@ -1,0 +1,7 @@
+(featherpluckn
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/featherpluckn_plus.mid")
+   (song_id 1005302)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

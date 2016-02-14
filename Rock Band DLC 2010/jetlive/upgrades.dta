@@ -1,0 +1,7 @@
+(jetlive
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/jetlive_plus.mid")
+   (song_id 1005885)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

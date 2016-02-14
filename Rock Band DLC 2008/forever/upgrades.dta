@@ -1,0 +1,7 @@
+(forever
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/forever_plus.mid")
+   (song_id 1005337)
+   ;(rbhp_author thomeval)
+;(rbhp_version 1)
+)

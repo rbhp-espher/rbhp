@@ -1,0 +1,7 @@
+(istandalone
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/istandalone_plus.mid")
+   (song_id 1005406)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

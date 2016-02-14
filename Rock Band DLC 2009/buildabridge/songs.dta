@@ -1,0 +1,79 @@
+(buildabridge
+   (name "Build a Bridge")
+   (artist "Limp Bizkit")
+   (master TRUE)
+   (context 1026)
+   (song
+     (name        "songs/buildabridge/buildabridge")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -3.5 -3.5   -5.0 -5.0  -4.0  -4.0 -4.0  -5.5 -5.5  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/buildabridge/buildabridge.mid")
+     (hopo_threshold 90)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 58792 86935)
+   (rank
+      (drum 232)
+      (guitar 265)
+      (bass 221)
+      (vocals 136)
+      (band 241)
+   )
+   (genre numetal)
+   (decade the00s)
+   (vocal_gender male)
+   
+
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005732)         
+
+   (rating 1)           
+
+   (short_version 121562) 
+
+   (song_length 247272) 
+
+   (extra_authoring lego) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2003)
+   (album_name "Results May Vary")   
+
+   (album_track_number 7)   
+
+   
+
+   (base_points 476817)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 0)
+)

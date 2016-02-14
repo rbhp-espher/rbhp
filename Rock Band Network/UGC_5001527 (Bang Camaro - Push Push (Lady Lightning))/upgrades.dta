@@ -1,0 +1,9 @@
+; Bang Camaro - Push Push (Lady Lightning)
+(UGC_5001527
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001527_plus.mid")
+	(song_id 5001527)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author espher)
+	;(rbhp_version 1)
+)

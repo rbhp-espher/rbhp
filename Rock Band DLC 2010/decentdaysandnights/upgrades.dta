@@ -1,0 +1,7 @@
+(decentdaysandnights
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/decentdaysandnights_plus.mid")
+   (song_id 1005932)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

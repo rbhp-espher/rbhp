@@ -1,0 +1,80 @@
+; RBDLC10 - 1005981 - Miley Cyrus - See You Again
+(seeyouagain
+   (name "See You Again")
+   (artist "Miley Cyrus")
+   (master TRUE)
+   (context 1267)
+   (song
+     (name        "songs/seeyouagain/seeyouagain")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass (4 5))
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0    0.0   -1.0  1.0    -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.7   -4.7   -7.7 -7.7    -7.7 -7.7  -7.7 -7.7  -6.6 -6.6  -8.7 -8.7 ))
+     (cores       (  -1     -1     -1   -1      -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/seeyouagain/seeyouagain.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 57957 87957)
+   (rank
+      (drum 200)
+      (guitar 192)
+      (bass 118)
+      (vocals 203)
+      (band 198)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender female)
+   ;(vocal_tonic_note 10)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005981)         
+
+   (rating 1)           
+
+   (short_version 140085) 
+
+   (song_length 192086) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2007)
+   (album_name "Meet Miley Cyrus")   
+
+   (album_track_number 1)   
+
+   (pack_name "Miley Cyrus Pack 01")  
+
+   (base_points 480720)
+; Added RB3 tonic information
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

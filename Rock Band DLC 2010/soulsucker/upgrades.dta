@@ -1,0 +1,7 @@
+(soulsucker
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/soulsucker_plus.mid")
+   (song_id 1006076)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,8 @@
+; Affiance - Call to the Warrior
+(UGC_5004939
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5004939_plus.mid")
+	(song_id 5004939)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
+)

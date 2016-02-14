@@ -1,0 +1,7 @@
+(missindependent
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/missindependent_plus.mid")
+   (song_id 1005785)
+   ;(rbhp_harmonies_author Espher)
+  ;(rbhp_version 1)
+)

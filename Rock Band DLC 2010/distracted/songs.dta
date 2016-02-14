@@ -1,0 +1,80 @@
+(distracted
+   (name "Distracted")
+   (artist "KSM")
+   (master TRUE)
+   (context 1083)
+   (song
+     (name        "songs/distracted/distracted")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass (5 6))
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.4  -1.4 -1.4  -3.4 -3.4  -5.4 -5.4  -3.9 -3.9  -3.4 -3.4  -4.4 -4.4 ))
+     (cores       (  -1    -1   -1    -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/distracted/distracted.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 32645 62645)
+   (rank
+      (drum 191)
+      (guitar 170)
+      (bass 171)
+      (vocals 247)
+      (band 180)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender female)
+   (vocal_tonic_note 10)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005613)         
+
+   (rating 1)           
+
+   (short_version 123000) 
+
+   (song_length 203181) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Read Between the Lines")   
+
+   (album_track_number 7)   
+
+   
+
+   (base_points 475073)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+; Added RB3 tonic info
+;(vocal_tonic_note 7)
+;(song_tonality 1)
+)

@@ -1,0 +1,84 @@
+; RBDLC10 - 1006117 - Creedence Clearwater Revival - Proud Mary
+(proudmary2
+   (name "Proud Mary")
+   (artist "Creedence Clearwater Revival")
+   (master TRUE)
+   (context 1282)
+   (song
+     (name        "songs/proudmary2/proudmary2")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0  -2.7  -4.7 -4.7  -3.3 -3.3  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/proudmary2/proudmary2.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents -15)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 55449 85449)
+   (rank
+      (drum 195)
+      (guitar 237)
+      (bass 149)
+      (vocals 170)
+      (band 202)
+   )
+   
+   (solo (guitar))  
+
+
+   (genre southernrock)
+   (decade the60s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006117)         
+
+   (rating 1)           
+
+   (short_version 131589)    
+
+   (song_length 200565) 
+
+   
+
+
+   (album_art TRUE)    
+
+   (year_released 1969)    
+
+   (album_name "Bayou Country")
+
+   (album_track_number 6)  
+
+   (pack_name "Creedence Clearwater Revival Pack 01")  
+
+   (base_points 450245)
+; Added RB3 scroll information  
+
+(song_tonality 0)
+)

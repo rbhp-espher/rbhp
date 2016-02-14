@@ -1,0 +1,64 @@
+; RBDLC08 - The Presidents of the United States of America - Feather Pluckn
+(featherpluckn 
+   (name "Feather Pluckn")  
+   (artist "The Presidents of the United States of America")
+   (master TRUE)
+   (context 437)
+   (song
+     (name        songs/featherpluckn/featherpluckn)
+     (tracks          
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7)) 
+         (guitar (8 9))
+         (vocals (10 11))  
+        ) 
+     )
+     (vocal_parts 3)
+     ;                  K          SN       CYMBALS      BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0))
+     (vols        ( -1.0 -1.0  -1.0 -1.0   -3.0 -3.0  -3.5 -3.5  -1.5 -1.5  -3.0 -3.0  -4.0 -4.0))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1    1     1   1    -1   -1    -1   -1 ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/featherpluckn/featherpluckn.mid)
+   )
+   (song_scroll_speed 2000)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 34685 63997)
+   (rank
+      (drum 234)
+      (guitar 216)
+      (bass 367)
+      (vocals 269)
+      (band 279)
+   )
+   (genre poprock)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               ; Only modified by coders!
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) ; if TRUE, the actual album art will be required
+   (year_released 1995)
+   (album_name "The Presidents of the United States of America")   ; OPTIONAL  (e.g. for covers)
+   (album_track_number 2)   ; OPTIONAL (would require album_name if added). If omitted Set Challenges use difficulty sorting.
+   (pack_name "^^^Moonwalk (or die...) 3-pack^^^")  ; OPTIONAL
+   (base_points 478246)
+; Added from RB3 DTB
+(song_id 1005302)
+(song_length 182272)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 scroll information
+(vocal_tonic_note 1)
+(song_tonality 0)
+)

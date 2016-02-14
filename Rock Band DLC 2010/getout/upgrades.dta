@@ -1,0 +1,7 @@
+(getout
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/getout_plus.mid")
+   (song_id 1006073)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

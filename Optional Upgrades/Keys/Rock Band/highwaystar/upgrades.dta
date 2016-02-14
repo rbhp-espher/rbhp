@@ -1,0 +1,11 @@
+(highwaystar
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/highwaystar_plus.mid")
+   (song_id 21)
+   (rank
+      (real_guitar 199)
+      (real_bass 373)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

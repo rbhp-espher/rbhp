@@ -1,0 +1,7 @@
+(madhouselive
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/madhouselive_plus.mid")
+   (song_id 1006182)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

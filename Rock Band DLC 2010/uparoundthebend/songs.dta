@@ -1,0 +1,86 @@
+; RBDLC10 - 1006052 - Creedence Clearwater Revival - Up Around the Bend
+(uparoundthebend
+   (name "Up Around the Bend")
+   (artist "Creedence Clearwater Revival")
+   (master TRUE)
+   (context 1285)
+   (song
+     (name        "songs/uparoundthebend/uparoundthebend")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.5 -4.5   -4.5 -4.5  -1.5  -4.5 -4.5  -4.5 -4.5  -5.5 -5.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/uparoundthebend/uparoundthebend.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 26424 56424)
+   (rank
+      (drum 219)
+      (guitar 190)
+      (bass 176)
+      (vocals 207)
+      (band 203)
+   )
+
+   
+
+
+   (genre southernrock)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006052)         
+
+   (rating 1)           
+
+   (short_version 92020) 
+
+   (song_length 180557) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1970)
+   (album_name "Cosmo's Factory")   
+
+   (album_track_number 7)   
+
+   (pack_name "Creedence Clearwater Revival Pack 01")  
+
+   (base_points 418629)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+; Added RB3 scroll information
+(song_tonality 0)
+)

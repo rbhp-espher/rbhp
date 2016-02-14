@@ -1,0 +1,80 @@
+; RBDLC09 - 1005709 - Big Dipper - She's Fetching
+(shesfetching
+   (name "She's Fetching")
+   (artist "Big Dipper")
+   (master TRUE)
+   (context 781)
+   (song
+     (name        songs/shesfetching/shesfetching)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -1.5 -1.5  -3.0 -3.0  -2.0  -3.0 -3.0  -2.5 -2.5  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/shesfetching/shesfetching.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 74842 101842)
+   (rank
+      (drum 174)
+      (guitar 188)
+      (bass 160)
+      (vocals 211)
+      (band 185)
+   )
+   (genre indierock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+   (game_origin rb1) 
+
+   
+   (song_id 1005709)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+;   (year_released 2008)
+   (album_name "Supercluster: The Big Dipper Anthology")   
+
+   (album_track_number 1)   
+
+   (pack_name "Big Dipper Pack 01")  
+
+   (base_points 392043)
+; Added from RB3 DTB
+(song_length 171818)
+(format 10)
+(game_origin rb1_dlc)
+(year_released 1987)
+(year_recorded 2008)
+(album_track_number 7)
+; Added RB3 scroll information
+(vocal_tonic_note 7)
+(song_tonality 0)
+)

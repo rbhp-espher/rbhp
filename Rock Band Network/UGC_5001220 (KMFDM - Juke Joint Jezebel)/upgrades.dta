@@ -1,0 +1,9 @@
+; KMFDM - Juke Joint Jezebel
+(UGC_5001220
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001220_plus.mid")
+	(song_id 5001220)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

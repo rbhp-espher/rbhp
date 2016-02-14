@@ -1,0 +1,7 @@
+(wakingthedemon
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/wakingthedemon_plus.mid")
+   (song_id 1005496)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,62 @@
+(warzone
+   (name "War Zone")
+   (artist "Rob Zombie")
+   (master TRUE)
+   (context 566)
+   (song
+     (name        songs/warzone/warzone)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.5  -4.0 -4.0   -4.0 -4.0  -2.5  -4.0 -4.0  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/warzone/warzone.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 70000 100000)
+   (rank
+      (drum 253)
+      (guitar 346)
+      (bass 189)
+      (vocals 125)
+      (band 298)
+   )
+   (genre numetal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "Punisher: War Zone")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 451704)
+(vocal_tonic_note 0)
+(song_tonality 0)
+)

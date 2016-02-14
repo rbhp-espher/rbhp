@@ -1,0 +1,79 @@
+; RBDLC09 - 1005624 - The Jackson 5 - ABC
+(abc
+   (name "ABC")
+   (artist "The Jackson 5")
+   (master TRUE)
+   (context 856)
+   (song
+     (name        songs/abc/abc)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (crowd_channels 10 11) 
+     
+
+     (pans        (    -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 -2.5  2.5 ))
+     (vols        (    -3.0 -3.0   -4.4 -4.4  -1.5 -1.5  -2.0 -2.0  -2.0 -2.0 -5.0 -5.0 ))
+     (cores       (     -1   -1     -1   -1     1    1    -1   -1    -1   -1   -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/abc/abc.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 17589 46235)
+   (rank
+      (drum 155)
+      (guitar 100)
+      (bass 254)
+      (vocals 445)
+      (band 224)
+   )
+   (genre poprock)
+   (decade the70s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005624)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1970)
+   (album_name "ABC")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 462495)
+; Added from RB3 DTB
+(song_length 188181)
+(solo (drum))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 8)
+(song_tonality 0)
+)

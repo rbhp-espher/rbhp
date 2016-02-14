@@ -1,0 +1,76 @@
+(whoknew
+   (name "Who Knew")
+   (artist "P!nk")
+   (master TRUE)
+   (context 1007)
+   (song
+     (name        "songs/whoknew/whoknew")
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -1.0   -3.5 -3.5  -4.0  -3.5 -3.5  -5.0 -5.0  -4.0 -4.0 ))
+     (cores       (  -1    -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/whoknew/whoknew.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 36545 66545)
+   (rank
+      (drum 118)
+      (guitar 180)
+      (bass 161)
+      (vocals 284)
+      (band 165)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender female)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005841)         
+
+   (rating 1)           
+
+   (short_version 127268) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2006)
+   (album_name "I'm Not Dead")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 534630)
+; Added from RB3 DTB
+(song_length 210909)
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

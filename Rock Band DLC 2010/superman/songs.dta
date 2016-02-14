@@ -1,0 +1,91 @@
+; RBDLC10 - 1006174 - R.E.M. - Superman
+(superman
+   (name "Superman")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1416)
+   (song
+     (name        "songs/superman/superman")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.0  -7.5 -7.5  -7.5 -7.5  -4.0  -6.0 -6.0  -7.0 -7.0  -7.0 -7.0 ))
+     (cores       (  -1    -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/superman/superman.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 60790 90790)
+   (rank
+      (drum 186)
+      (guitar 222)
+      (bass 236)
+      (vocals 170)
+      (band 209)
+   )
+
+   
+
+   
+
+   
+
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   ;(vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006174)         
+
+   (rating 1)           
+
+   (short_version 147368) 
+
+   (song_length 165691) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1986) 
+
+   (album_name "Lifes Rich Pageant")   
+
+   (album_track_number 12)   
+
+   
+
+   (base_points 395280)
+   
+
+; Added RB3 scroll information
+(vocal_tonic_note 5)
+(song_tonality 0)
+)

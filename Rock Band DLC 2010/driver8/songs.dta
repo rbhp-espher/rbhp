@@ -1,0 +1,88 @@
+; RBDLC10 - 1006183 - R.E.M. - Driver 8
+(driver8
+   (name "Driver 8")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1411)
+   (song
+     (name        "songs/driver8/driver8")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -5.0   -5.0 -5.0  -4.5  -5.0 -5.0  -6.5 -6.5  -6.0 -6.0 ))
+     (cores       (  -1    -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/driver8/driver8.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 29347 57706)
+   (rank
+      (drum 208)
+      (guitar 208)
+      (bass 240)
+      (vocals 207)
+      (band 208)
+   )
+
+   
+
+   
+
+   
+
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006183)         
+
+   (rating 1)           
+
+   (short_version 94807) 
+
+   (song_length 208390) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1985) 
+
+   (album_name "Fables of the Reconstruction")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 581793)
+; Added RB3 scroll information
+(song_tonality 1)
+)

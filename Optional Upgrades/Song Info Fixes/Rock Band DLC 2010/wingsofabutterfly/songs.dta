@@ -1,0 +1,67 @@
+(wingsofabutterfly
+   (name "Wings of a Butterfly")
+   (artist "H.I.M.")
+   (master TRUE)
+   (context 1082)
+   (song
+     (name        "songs/wingsofabutterfly/wingsofabutterfly")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -5.0 -5.0   -5.0 -5.0  -2.5  -5.0 -5.0  -5.0 -5.0  -5.5 -5.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/wingsofabutterfly/wingsofabutterfly.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 51000 81000)
+   (rank
+      (drum 199)
+      (guitar 166)
+      (bass 140)
+      (vocals 217)
+      (band 179)
+   )
+   (genre alternative)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 10)
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   (song_id 1005935)         
+
+   (rating 2)           
+
+   (short_version 122500) 
+
+   (song_length 211818) 
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Dark Light")   
+
+   (album_track_number 2)   
+
+   (base_points 409790)
+; Added RB3 tonic info
+(song_tonality 1)
+)

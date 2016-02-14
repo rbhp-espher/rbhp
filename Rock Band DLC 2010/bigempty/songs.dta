@@ -1,0 +1,93 @@
+; RBDLC10 - 1006207 - Stone Temple Pilots - Big Empty
+(bigempty
+   (name "Big Empty")
+   (artist "Stone Temple Pilots")
+   (master TRUE)
+   (context 1437)
+   (song
+     (name        "songs/bigempty/bigempty")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -4.5 -4.5  -3.0 -3.0   -5.0 -5.0  -2.5  -5.0 -5.0  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (  -1   -1     -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/bigempty/bigempty.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 45000 75000)
+   (rank
+      (drum 242)
+      (guitar 180)
+      (bass 204)
+      (vocals 206)
+      (band 211)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+   ;(vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006207)         
+
+   (rating 2)           
+
+   (short_version 90946) 
+
+   (song_length 296526) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1994) 
+
+   
+
+   (album_name "Purple")   
+
+   (album_track_number 8)   
+
+   (pack_name "Stone Temple Pilots Pack 01")  
+
+   (base_points 555145)
+   (encoding latin1) 
+
+; Added RB3 scroll information
+(vocal_tonic_note 7)
+(song_tonality 0)
+)

@@ -1,0 +1,85 @@
+(fijatebien
+   (name "Fíjate Bien")
+   (artist "Juanes")
+   (master TRUE)
+   (context 1302)
+   (song
+     (name        "songs/fijatebien/fijatebien")
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.0 -4.0   -4.0 -4.0  -4.0 -4.0  -3.7 -3.7  -4.0 -4.0 ))
+     (cores       (  -1   -1     -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/fijatebien/fijatebien.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 75766 105766)
+   (rank
+      (drum 241)
+      (guitar 306)
+      (bass 220)
+      (vocals 210)
+      (band 260)
+   )
+   
+   
+
+   (solo (guitar))  
+
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 11)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006144)         
+
+   (rating 2)           
+
+   (short_version 95991) 
+
+   (song_length 293717) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2000) 
+
+   (album_name "Fíjate Bien")   
+
+   (album_track_number 7)   
+
+   (pack_name "Juanes Pack 01")  
+
+   (base_points 653834)
+   (encoding latin1) 
+
+;(song_tonality 0)
+)

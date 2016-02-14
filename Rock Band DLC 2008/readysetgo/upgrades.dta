@@ -1,0 +1,7 @@
+(readysetgo
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/readysetgo_plus.mid")
+   (song_id 1005357)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

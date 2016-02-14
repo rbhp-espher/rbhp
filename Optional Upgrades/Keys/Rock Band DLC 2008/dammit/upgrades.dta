@@ -1,0 +1,7 @@
+(dammit
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/dammit_plus.mid")
+   (song_id 1005277)
+   ;(rbhp_author StackOverflow0x)
+  ;(rbhp_version 1)
+)

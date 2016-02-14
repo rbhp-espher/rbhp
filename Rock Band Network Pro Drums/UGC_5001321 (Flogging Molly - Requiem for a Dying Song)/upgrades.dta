@@ -1,0 +1,8 @@
+; Flogging Molly - Requiem For a Dying Song
+(UGC_5001321
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001321_plus.mid")
+	(song_id 5001321)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

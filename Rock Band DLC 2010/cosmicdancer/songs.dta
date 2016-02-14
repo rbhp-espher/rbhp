@@ -1,0 +1,87 @@
+(cosmicdancer
+   (name "Cosmic Dancer")
+   (artist "T. Rex")
+   (master TRUE)
+   (context 1420)
+   (song
+     (name        "songs/cosmicdancer/cosmicdancer")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -3.7 -3.7  -1.7  -4.0 -4.0  -5.0 -5.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/cosmicdancer/cosmicdancer.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 32397 62397)
+   (rank
+      (drum 216)
+      (guitar 170)
+      (bass 235)
+      (vocals 153)
+      (band 192)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 7)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006187)         
+
+   (rating 1)           
+
+   (short_version 113528) 
+
+   (song_length 273541) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1971) 
+
+   (album_name "Electric Warrior")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 543357)
+   
+
+(song_tonality 0)
+)

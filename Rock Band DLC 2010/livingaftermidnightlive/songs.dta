@@ -1,0 +1,85 @@
+; RBDLC08 - 1006047 - Judas Priest - Living After Midnight (Live)
+(livingaftermidnightlive
+   (name "Living After Midnight (Live)")
+   (artist "Judas Priest")
+   (master TRUE)
+   (context 1225)
+   (song
+     (name        "songs/livingaftermidnightlive/livingaftermidnightlive")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -5.2 -5.2  -5.2 -5.2   -5.2 -5.2  -2.2  -5.0 -5.0  -4.7 -4.7  -5.2 -5.2 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/livingaftermidnightlive/livingaftermidnightlive.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 30000 60000)
+   (rank
+      (drum 244)
+      (guitar 259)
+      (bass 217)
+      (vocals 210)
+      (band 252)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+;   (vocal_tonic_note 3)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006047)         
+
+   (rating 2)           
+
+   (short_version 225140) 
+
+   (song_length 284545) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "British Steel 30th Anniversary")   
+
+   (album_track_number 7)   
+
+   (pack_name "British Steel 30th Anniversary")  
+
+   (base_points 632845)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+(year_released 1980)
+(year_recorded 2010)
+; Added RB3 scroll information
+(vocal_tonic_note 4)
+(song_tonality 0)
+)

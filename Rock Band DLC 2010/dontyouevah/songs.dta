@@ -1,0 +1,82 @@
+; RBDLC10 - 1006061 - Spoon - Don't You Evah
+(dontyouevah
+   (name "Don't You Evah")
+   (artist "Spoon")
+   (master TRUE)
+   (context 1248)
+   (song
+     (name        "songs/dontyouevah/dontyouevah")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0    0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.5 -4.5   -1.5  -4.5 -4.5  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/dontyouevah/dontyouevah.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 112786 142786)
+   (rank
+      (drum 145)
+      (guitar 148)
+      (bass 132)
+      (vocals 183)
+      (band 150)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 1)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006061)         
+
+   (rating 2)           
+
+   (short_version 147313) 
+
+   (song_length 215104) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2007)
+   (album_name "Ga Ga Ga Ga Ga")   
+
+   (album_track_number 4)   
+
+   (pack_name "Spoon Pack 01")  
+
+   (base_points 443209)
+; Added from RB3 DTB
+(solo (vocal_percussion))
+(format 10)
+; Added RB3 scroll information
+(song_tonality 1)
+)

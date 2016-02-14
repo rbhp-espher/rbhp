@@ -1,0 +1,75 @@
+(10s
+   (name "10's")
+   (artist "Pantera")
+   (master TRUE)
+   (context 1240)
+   (song
+     (name        "songs/10s/10s")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.3  -4.8 -4.8   -4.3 -4.3  -3.1  -4.3 -4.3  -4.8 -4.8  -4.3 -4.3 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/10s/10s.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents -45)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 56563 86563)
+   (rank
+      (drum 210)
+      (guitar 343)
+      (bass 193)
+      (vocals 230)
+      (band 293)
+   )
+   (genre metal)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 3)
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   (song_id 1005794)         
+
+   (rating 2)           
+
+   (short_version 126734) 
+
+   (song_length 292727) 
+
+   
+
+   (album_art TRUE) 
+
+   (year_released 1996)
+   (album_name "The Great Southern Trendkill")   
+
+   (album_track_number 4)   
+
+   
+
+   (base_points 450317)
+; Added from RB3 DTB
+(solo (guitar))
+(format 10)
+)

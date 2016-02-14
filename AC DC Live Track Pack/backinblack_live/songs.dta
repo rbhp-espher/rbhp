@@ -1,0 +1,70 @@
+; RBACDC - 1005296 - AC/DC - Back in Black (Live)
+(backinblack_live
+   (name "Back in Black (Live)")
+   (artist "AC/DC")
+   (master TRUE)
+   (context 463)
+   (song
+     (name        songs/backinblack_live/backinblack_live)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0 -1.0  -1.0 -1.0   -1.0 -1.0  -1.0  -1.0 -1.0  -1.0 -1.0  -1.0 -1.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/backinblack_live/backinblack_live.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   ;(preview 22941 54941)
+   (rank
+      (drum 120)
+      (guitar 280)
+      (bass 152)
+      (vocals 230)
+      (band 180)
+   )
+   (genre classicrock)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)
+
+   (album_art TRUE) 
+
+   (year_released 1992)
+   (album_name "Live")
+   (album_track_number 3)
+   
+
+   (base_points 427247)
+; Added from RB3 DTB
+(song_id 1005296)	
+(preview 22941 52941)
+(song_length 237727)	
+(solo (guitar))	
+(format 10)	
+(game_origin rb1_dlc)	
+(rating 1)
+; Added RB3 tonic info	
+(vocal_tonic_note 0)
+(song_tonality 0)
+)

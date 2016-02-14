@@ -1,0 +1,7 @@
+(heydude
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/heydude_plus.mid")
+   (song_id 1005673)
+   ;(rbhp_harmonies_author espher)
+  ;(rbhp_version 1)
+)

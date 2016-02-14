@@ -1,0 +1,65 @@
+; RBDLC09 - 1005587 - Iron Maiden - The Trooper
+(thetrooper
+   (name "The Trooper")
+   (artist "Iron Maiden")
+   (master TRUE)
+   (context 722)
+   (song
+     (name        songs/thetrooper/thetrooper)
+     (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     ;                K     SN    CYMBALS    BS     GUITAR     VOCALS     TRACKS
+     (pans        (  0.0   0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.0  -2.0  -3.5 -3.5  -3.0  -5.0 -5.0  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/thetrooper/thetrooper.mid)
+     (vocal_parts 2)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell3_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 52500 76200)
+   (rank
+      (drum 369)
+      (guitar 477)
+      (bass 379)
+      (vocals 218)
+      (band 403)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+
+   (version 3)               ; Only modified by coders!
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) ; if TRUE, the actual album art will be required
+   (year_released 1983)
+   (album_name "Piece of Mind")   ; OPTIONAL  (e.g. for covers)
+   (album_track_number 5)   ; OPTIONAL (would require album_name if added). If omitted Set Challenges use difficulty sorting.
+   (pack_name "Iron Maiden Pack 01")  ; OPTIONAL
+   (base_points 677889)
+   
+    ; From RB3 disc
+    (song_id 1005587)
+    (song_length 255000)
+    (solo (guitar vocal_percussion))
+    (format 10)
+    (game_origin rb1_dlc)
+    (rating 2)
+; Added RB3 scroll information 
+   (vocal_tonic_note 4)
+   (song_tonality 0)
+)

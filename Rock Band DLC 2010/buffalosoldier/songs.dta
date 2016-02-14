@@ -1,0 +1,90 @@
+; RBDLC10 - 1006179 - Bob Marley and the Wailers - Buffalo Soldier
+(buffalosoldier
+   (name "Buffalo Soldier")
+   (artist "Bob Marley and the Wailers")
+   (master TRUE)
+   (context 1390)
+   (song
+     (name        "songs/buffalosoldier/buffalosoldier")
+     (tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     (vocal_parts 3) 
+     
+
+     (pans        (  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/buffalosoldier/buffalosoldier.mid")
+     (hopo_threshold 130)
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 13235 43235)
+   (rank
+      (drum 199)
+      (guitar 149)
+      (bass 170)
+      (vocals 213)
+      (band 179)
+   )
+
+   
+
+   
+
+   
+
+
+   (genre other)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006179)         
+
+   (rating 2)           
+
+   (short_version 113383) 
+
+   (song_length 262380) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1984) 
+
+   (album_name "Legend")   
+
+   (album_track_number 5)   
+
+   
+
+   (base_points 551559)
+ 
+; Added RB3 scroll information
+(song_tonality 0)
+)

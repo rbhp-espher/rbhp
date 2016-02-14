@@ -1,0 +1,62 @@
+; RBDLC08 - 1005091 - Judas Priest - You've Got Another Thing Comin'
+(yougotanotherthingcoming
+   (name "You've Got Another Thing Comin'")
+   (artist "Judas Priest")
+   (master TRUE)
+   (context 184)
+   (song
+     (name        songs/yougotanotherthingcoming/yougotanotherthingcoming)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0 -1.0  -1.0 -1.0   -3.0 -3.0  -3.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/yougotanotherthingcoming/yougotanotherthingcoming.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 52000 82000)
+   (rank
+      (drum 176)
+      (guitar 140)
+      (bass 140)
+      (vocals 236)
+      (band 226)
+   )
+   (genre metal)
+   (decade the80s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005091)
+(song_length 305909)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 1982)
+(alternate_path TRUE)
+(extra_authoring disc_update)
+(album_art TRUE)
+(album_name "Screaming for Vengeance")
+(album_track_number 8)
+; Added RB3 scroll information
+(vocal_tonic_note 6)
+(song_tonality 1)
+)

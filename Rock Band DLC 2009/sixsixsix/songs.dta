@@ -1,0 +1,74 @@
+(sixsixsix
+   (name "666")
+   (artist "Anvil")
+   (master TRUE)
+   (context 0)
+   (song
+     (name        songs/sixsixsix/sixsixsix)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.7  -3.2 -3.2   -3.0 -3.0  -2.3  -2.5 -2.5  -2.7 -2.7  -2.5 -2.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/sixsixsix/sixsixsix.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 90975 120975)
+   (rank
+      (drum 431)
+      (guitar 376)
+      (bass 390)
+      (vocals 184)
+      (band 404)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   (song_id 0)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+   (album_art TRUE) 
+
+   ;(year_released 2009)
+   (album_name "Anvil Rock Band Re-Record")   
+
+   (album_track_number 11)   
+
+   (pack_name "Anvil Pack 01")  
+
+   (base_points 807456)
+; Added from RB3 DTB
+(song_length 281363)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(song_id 1005665) 
+(year_released 1982)
+(year_recorded 2009)
+)

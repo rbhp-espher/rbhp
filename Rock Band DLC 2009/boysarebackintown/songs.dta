@@ -1,0 +1,70 @@
+(boysarebackintown
+   (name "The Boys Are Back in Town (Live)")
+   (artist "Thin Lizzy")
+   (master TRUE)
+   (context 577)
+   (song
+     (name        songs/boysarebackintown/boysarebackintown)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (   0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -0.5  -1.0 -1.0   -3.5 -3.5  -3.5  -5.5 -5.5  -2.0 -2.0  -3.0 -3.0 ))
+     (cores       (   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/boysarebackintown/boysarebackintown.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 33715 63344)
+   (rank
+      (drum 278)
+      (guitar 333)
+      (bass 299)
+      (vocals 168)
+      (band 310)
+   )
+   (genre classicrock)
+   (decade the70s)
+   (vocal_gender male)
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+   (album_art TRUE) 
+
+   ;(year_released 2009)
+   (album_name "Still Dangerous - Live At the Tower Theatre Philadelphia 1977")   
+
+   (album_track_number 4)   
+
+   (pack_name "Thin Lizzy Pack 01")  
+
+   (base_points 657020)
+; Added from RB3 DTB
+(song_id 1005421)
+(song_length 274090)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 1977) 
+(year_recorded 2009) 
+; Added RB3 tonic info
+(vocal_tonic_note 8)
+(song_tonality 0)
+)

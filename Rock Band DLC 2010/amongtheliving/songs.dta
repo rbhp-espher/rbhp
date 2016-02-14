@@ -1,0 +1,88 @@
+; RBDLC10 - 1006177 - Anthrax - Among the Living
+(amongtheliving
+   (name "Among the Living")
+   (artist "Anthrax")
+   (master TRUE)
+   (context 1399)
+   (song
+     (name        "songs/amongtheliving/amongtheliving")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.8  -4.8 -4.8  -2.0  -4.8 -4.8  -4.8 -4.8  -4.8 -4.8 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/amongtheliving/amongtheliving.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents 10)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 157895 187895)
+   (rank
+      (drum 430)
+      (guitar 380)
+      (bass 460)
+      (vocals 275)
+      (band 410)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+   ;(vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006177)         
+
+   (rating 2)           
+
+   (short_version 135024) 
+
+   (song_length 318688) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1987) 
+
+   (album_name "Among the Living")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 961290)
+; Added RB3 scroll information   
+
+(vocal_tonic_note 3)
+(song_tonality 1)
+)

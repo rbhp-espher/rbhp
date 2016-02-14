@@ -1,0 +1,8 @@
+; Clutch - 50,000 Unstoppable Watts
+(UGC_5001579
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001579_plus.mid")
+	(song_id 5001579)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

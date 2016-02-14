@@ -1,0 +1,81 @@
+(kingsandqueens
+   (name "Kings and Queens")
+   (artist "30 Seconds to Mars")
+   (master TRUE)
+   (context 1028)
+   (song
+     (name        "songs/kingsandqueens/kingsandqueens")
+     (tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -5.0 -5.0  -5.5  -5.0 -5.0  -5.5 -5.5  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/kingsandqueens/kingsandqueens.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 71000 101000 )
+   (rank
+      (drum 392)
+      (guitar 220)
+      (bass 180)
+      (vocals 224)
+      (band 285)
+   )
+   (genre emo)
+   (decade the00s)
+   (vocal_gender male)
+   
+
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005859)         
+
+   (rating 2)           
+
+   (short_version 96100) 
+
+   (song_length 327727) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "This Is War")   
+
+   (album_track_number 3)   
+
+   
+
+   (base_points 661921)
+; Added from RB3 DTB
+(format 10)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 3)
+(song_tonality 0)
+)

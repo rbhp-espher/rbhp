@@ -1,0 +1,7 @@
+(byob
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/byob_plus.mid")
+   (song_id 1005183)
+   ;(rbhp_author non_zero)
+  ;(rbhp_version 1)
+)

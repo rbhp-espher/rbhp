@@ -1,0 +1,7 @@
+(gasoline
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/gasoline_plus.mid")
+   (song_id 1005614)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,9 @@
+; Stewart - Dance With Me
+(UGC_5001677
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001677_plus.mid")
+	(song_id 5001677)
+	;(rbhp_harmonies_author toopskittles)
+	;(rbhp_prodrums_author toopskittles)
+	;(rbhp_version 1)
+)

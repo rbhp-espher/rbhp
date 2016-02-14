@@ -1,0 +1,70 @@
+; RBDLC09 - 1005392 - Roy Orbison - In Dreams
+(indreams
+   (name "In Dreams")
+   (artist "Roy Orbison")
+   (master TRUE)
+   (context 553)
+   (song
+     (name        songs/indreams/indreams)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (   0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -1.0  -1.0 -1.0   -1.0 -1.0  -1.0  -2.0 -2.0  -1.0 -1.0  -1.0 -1.0 ))
+     (cores       (   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/indreams/indreams.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 89283 119120)
+   (rank
+      (drum 181)
+      (guitar 269)
+      (bass 110)
+      (vocals 184)
+      (band 194)
+   )
+   (genre poprock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1987)
+   (album_name "In Dreams: The Greatest Hits")   
+
+   (album_track_number 3)   
+
+   (pack_name "Roy Orbison Pack 01")  
+
+   (base_points 320079)
+; Added from RB3 DTB
+(song_id 1005392)
+(song_length 176818)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 scroll information
+(vocal_tonic_note 0)
+(song_tonality 0)
+)

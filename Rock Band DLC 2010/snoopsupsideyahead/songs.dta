@@ -1,0 +1,82 @@
+(snoopsupsideyahead
+   (name "Snoop's Upside Ya Head")
+   (artist "Snoop Dogg")
+   (master TRUE)
+   (context 1375)
+   (song
+     (name        "songs/snoopsupsideyahead/snoopsupsideyahead")
+     (tracks
+        ((drum (0 1 2 3))
+         (bass (4 5))
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -1.5   -4.5 -4.5  -4.5 -4.5   -4.5 -4.5  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1     -1   -1    -1   -1      1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/snoopsupsideyahead/snoopsupsideyahead.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 106626 136626)
+   (rank
+      (drum 145)
+      (guitar 251)
+      (bass 150)
+      (vocals 187)
+      (band 213)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre urban)
+   (decade the90s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005925)         
+
+   (rating 2)           
+
+   (short_version 148329) 
+
+   (song_length 274592) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Snoop Dogg Rock Band Re-Records")   
+
+   (album_track_number 3)   
+
+   (pack_name "Snoop Dogg Pack 01")  
+
+   (base_points 568948)
+(song_tonality 0)
+)

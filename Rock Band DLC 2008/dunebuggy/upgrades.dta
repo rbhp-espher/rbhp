@@ -1,0 +1,7 @@
+(dunebuggy
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/dunebuggy_plus.mid")
+   (song_id 1005301)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

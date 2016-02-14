@@ -1,0 +1,76 @@
+(ipredictariot
+   (name "I Predict a Riot")
+   (artist "Kaiser Chiefs")
+   (master TRUE)
+   (context 838)
+   (song
+     (name        songs/ipredictariot/ipredictariot)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -2.0 -2.0   -3.0 -3.0  -2.5  -3.0 -3.0  -2.5 -2.5  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/ipredictariot/ipredictariot.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 57756 86127)
+   (rank
+      (drum 250)
+      (guitar 146)
+      (bass 221)
+      (vocals 191)
+      (band 204)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005746)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Employment")   
+
+   (album_track_number 2)   
+
+   (pack_name "Foo Fighters Pack 02")  
+
+   (base_points 586433)
+; Added from RB3 DTB
+(song_length 238181)
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 0)
+(song_tonality 1)
+)

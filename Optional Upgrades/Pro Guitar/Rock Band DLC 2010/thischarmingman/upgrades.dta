@@ -1,0 +1,11 @@
+(thischarmingman
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/thischarmingman_plus.mid")
+   (song_id 1006152)
+   (rank
+      (real_guitar 390)
+      (real_bass 450)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

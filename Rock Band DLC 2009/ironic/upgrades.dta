@@ -1,0 +1,7 @@
+(ironic
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/ironic_plus.mid")
+   (song_id 1005733)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

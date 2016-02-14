@@ -1,0 +1,7 @@
+(singthechanges
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/singthechanges_plus.mid")
+   (song_id 1005881)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,84 @@
+; RBDLC10 - 1006046 - Judas Priest - United (Live)
+(unitedlive
+   (name "United (Live)")
+   (artist "Judas Priest")
+   (master TRUE)
+   (context 1224)
+   (song
+     (name        "songs/unitedlive/unitedlive")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -5.2 -5.2  -5.2 -5.2   -5.2 -5.2  -2.2  -5.0 -5.0  -4.2 -4.2  -5.2 -5.2 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/unitedlive/unitedlive.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 57213 87213)
+   (rank
+      (drum 132)
+      (guitar 128)
+      (bass 150)
+      (vocals 175)
+      (band 130)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+;  (vocal_tonic_note 5)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006046)         
+
+   (rating 1)           
+
+   (short_version 109319) 
+
+   (song_length 225029) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "British Steel 30th Anniversary")   
+
+   (album_track_number 5)   
+
+   (pack_name "British Steel 30th Anniversary")  
+
+   (base_points 321724)
+; Added from RB3 DTB
+(format 10)
+(year_released 1980)
+(year_recorded 2010)
+; Added RB3 scroll information
+(vocal_tonic_note 6)
+(song_tonality 1)
+)

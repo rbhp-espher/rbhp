@@ -1,0 +1,78 @@
+; RBDLC09 - 1005733 - Alanis Morissette - Ironic
+(ironic
+   (name "Ironic")
+   (artist "Alanis Morissette")
+   (master TRUE)
+   (context 900)
+   (song
+     (name        songs/ironic/ironic)
+     (vocal_parts 2)
+(tracks
+        ((drum (0 1))
+         (bass 2)
+         (guitar (3 4))
+         (vocals (5 6))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0    0.0   -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0 -2.0    0.0   -1.5 -1.5  -1.5 -1.5  -0.5 -0.5 )) ; -1.5 -1.5
+     (cores       (  -1   -1     -1      1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/ironic/ironic.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 43000 73000)
+   (rank
+      (drum 227)
+      (guitar 216)
+      (bass 221)
+      (vocals 264)
+      (band 220)
+   )
+   (genre poprock)
+   (decade the90s)
+   (vocal_gender female)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005733)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1995)
+   (album_name "Jagged Little Pill")   
+
+   (album_track_number 10)   
+
+   
+
+   (base_points 560725)
+; Added from RB3 DTB
+(song_length 236363)
+(format 10)
+(game_origin rb1_dlc)
+(extra_authoring disc_update)
+; Added RB3 scroll information
+(vocal_tonic_note 11)
+(song_tonality 0)
+)

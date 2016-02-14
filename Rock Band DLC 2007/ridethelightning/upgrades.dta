@@ -1,0 +1,7 @@
+(ridethelightning
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/ridethelightning_plus.mid")
+   (song_id 1005013)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

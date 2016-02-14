@@ -1,0 +1,78 @@
+; RBDLC08 - 1005673 - Kula Shaker - Hey Dude
+(heydude
+   (name "Hey Dude")
+   (artist "Kula Shaker")
+   (master TRUE)
+   (context 895)
+   (song
+     (name        songs/heydude/heydude)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.5 -4.5   -4.2 -4.2  -1.5  -4.0 -4.0  -3.7 -3.7  -4.2 -4.2 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/heydude/heydude.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 93000 123000)
+   (rank
+      (drum 375)
+      (guitar 328)
+      (bass 370)
+      (vocals 258)
+      (band 360)
+   )
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005673)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1996)
+   (album_name "K")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 675602)
+; Added from RB3 DTB
+(song_length 250000)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 7)
+(song_tonality 1)
+)

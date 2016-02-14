@@ -1,0 +1,8 @@
+(skullcrushermt
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/skullcrushermt_plus.mid")
+   (song_id 1005201)
+  ;(rbhp_author espher)
+  ;(rbhp_version 1)
+  ;(rbhp_effort 0)
+)

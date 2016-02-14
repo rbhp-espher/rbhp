@@ -1,0 +1,87 @@
+; RBDLC10 - 1006138 - Bad Religion - New Dark Ages
+(newdarkages
+   (name "New Dark Ages")
+   (artist "Bad Religion")
+   (master TRUE)
+   (context 1293)
+   (song
+     (name        "songs/newdarkages/newdarkages")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -4.0 -4.0   -4.0 -4.0  -1.0  -3.7 -3.7  -3.9 -3.9  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/newdarkages/newdarkages.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 44907 74907)
+   (rank
+      (drum 326)
+      (guitar 333)
+      (bass 331)
+      (vocals 190)
+      (band 329)
+   )
+   
+   
+
+   
+
+
+   (genre punk)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006138)         
+
+   (rating 2)           
+
+   (short_version 94323) 
+
+   (song_length 168013) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2007) 
+
+   (album_name "New Maps of Hell")   
+
+   (album_track_number 4)   
+
+   
+
+   (base_points 558192)
+   
+
+(song_tonality 0)
+)

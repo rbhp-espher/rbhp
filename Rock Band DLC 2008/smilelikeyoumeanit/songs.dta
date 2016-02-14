@@ -1,0 +1,72 @@
+; RBDLC08 - 1005350 - The Killers - Smile Like You Mean It
+(smilelikeyoumeanit
+   (name "Smile Like You Mean It")
+   (artist "The Killers")
+   (master TRUE)
+   (context 505)
+   (song
+     (name        songs/smilelikeyoumeanit/smilelikeyoumeanit)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5 -1.5  -2.0 -2.0   -3.5 -3.5  -2.5 -2.5  -2.5 -2.5  -2.0 -2.0  -1.5 -1.5 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/smilelikeyoumeanit/smilelikeyoumeanit.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 102260 132260)
+   (rank
+      (drum 260)
+      (guitar 186)
+      (bass 190)
+      (vocals 125)
+      (band 210)
+   )
+   (genre alternative)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2004)
+   (album_name "Hot Fuss")   
+
+   (album_track_number 3)   
+
+   (pack_name "The Killers Pack 01")  
+
+   (base_points 499927)
+; Added from RB3 DTB
+(song_id 1005350)
+(song_length 241363)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 6)
+(song_tonality 0)
+)

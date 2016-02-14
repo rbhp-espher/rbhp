@@ -1,0 +1,63 @@
+; RBDLC08 - 1005167 - The Who - Leaving Here
+(leavinghere
+   (name "Leaving Here")
+   (artist "The Who")
+   (master TRUE)
+   (context 247)
+   (song
+     (name        songs/leavinghere/leavinghere)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -0.5 -0.5  -0.5 -0.5  -3.0 -3.0  -3.5 -3.5  -4.0 -4.0 ))
+     (cores       (   -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/leavinghere/leavinghere.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 72446 102446)
+   (rank
+      (drum 370)
+      (guitar 266)
+      (bass 135)
+      (vocals 111)
+      (band 212)
+   )
+   (genre classicrock)
+   (decade the60s)
+   (downloaded TRUE)
+   (vocal_gender male)
+
+   (format 2)
+   (version 1)               
+
+   (album_art TRUE)
+   (year_released 1965)
+   (album_name "My Generation (Deluxe Edition)") 
+   (album_track_number 17)
+; Added from RB3 DTB
+(song_id 1005167)
+(song_length 176818)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 scroll information
+(vocal_tonic_note 1)
+(song_tonality 1)
+)

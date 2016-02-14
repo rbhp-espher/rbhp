@@ -1,0 +1,9 @@
+; Bang Camaro - Swallow the Razor
+(UGC_5002446
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5002446_plus.mid")
+	(song_id 5002446)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author espher)
+	;(rbhp_version 1)
+)

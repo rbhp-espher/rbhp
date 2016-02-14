@@ -1,0 +1,7 @@
+(reddevil
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/reddevil_plus.mid")
+   (song_id 1005354)
+   ;(rbhp_harmonies_author espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,71 @@
+﻿(haypocorockandroll
+   (name "Hay Poco Rock & Roll")
+   (artist "Platero y Tú")
+   (master TRUE)
+   (context 514)
+   (song
+     (name        songs/haypocorockandroll/haypocorockandroll)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0   -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0   -1.0 -1.0   -3.0 -3.0  -2.0  -3.5 -3.5  -3.2 -3.2  -2.5 -2.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/haypocorockandroll/haypocorockandroll.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/handclap_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 107300 128300)
+   (rank
+      (drum 119)
+      (guitar 332)
+      (bass 136)
+      (vocals 251)
+      (band 145)
+   )
+   (genre rock)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1994)
+   (album_name "Hay Poco Rock & Roll")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 605406)
+; Added from RB3 DTB
+(song_id 1005359)
+(song_length 337727)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(encoding latin1)
+; Added RB3 tonic info
+(vocal_tonic_note 5)
+(song_tonality 0)
+)

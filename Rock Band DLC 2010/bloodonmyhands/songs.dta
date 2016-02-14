@@ -1,0 +1,80 @@
+; RBDLC10 - 1006010 - The Used - Blood on My Hands
+(bloodonmyhands
+   (name "Blood on My Hands")
+   (artist "The Used")
+   (master TRUE)
+   (context 1190)
+   (song
+     (name        "songs/bloodonmyhands/bloodonmyhands")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -4.5 -4.5   -4.3 -4.3  -1.5  -3.5 -3.5  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/bloodonmyhands/bloodonmyhands.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 44489 74489)
+   (rank
+      (drum 318)
+      (guitar 321)
+      (bass 250)
+      (vocals 257)
+      (band 368)
+   )
+   (genre emo)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006010)         
+
+   (rating 2)           
+
+   (short_version 106245) 
+
+   (song_length 198497) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Artwork")   
+
+   (album_track_number 1)   
+
+   (pack_name "The Used Pack 01")  
+
+   (base_points 469889)
+
+; Added tonic info
+;(song_tonality 0)
+)

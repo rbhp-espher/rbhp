@@ -1,0 +1,71 @@
+; RBDLC09 - 1005577 - Shooter Jennings - Steady at the Wheel
+(steadyatthewheel
+   (name "Steady at the Wheel")
+   (artist "Shooter Jennings")
+   (master TRUE)
+   (context 714)
+   (song
+     (name        songs/steadyatthewheel/steadyatthewheel)
+     (vocal_parts 2)
+(tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -1.0 -1.0  -1.8  -4.6 -4.6  -2.2 -2.2  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/steadyatthewheel/steadyatthewheel.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 35950 64800)
+   (rank
+      (drum 220)
+      (guitar 258)
+      (bass 190)
+      (vocals 222)
+      (band 202)
+   )
+   (genre country)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Put the O Back in Country")   
+
+   (album_track_number 7)   
+
+   
+
+   (base_points 346849)
+; Added from RB3 DTB
+(song_id 1005577)
+(song_length 181818)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added tonic info
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

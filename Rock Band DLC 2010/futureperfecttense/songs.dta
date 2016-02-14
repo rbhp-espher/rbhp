@@ -1,0 +1,80 @@
+(futureperfecttense
+   (name "Future Perfect Tense")
+   (artist "Sweet Billy Pilgrim")
+   (master TRUE)
+   (context 1287)
+   (song
+     (name        "songs/futureperfecttense/futureperfecttense")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.5 -4.5  -4.0 -4.0   -4.5 -4.5   -4.5 -4.5  -4.5 -4.5  -5.5 -5.5  -6.5 -6.5 ))
+     (cores       (  -1   -1     -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/futureperfecttense/futureperfecttense.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 48305 78305)
+   (rank
+      (drum 170)
+      (guitar 273)
+      (bass 220)
+      (vocals 170)
+      (band 218)
+   )
+
+   
+
+
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 5)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006094)         
+
+   (rating 1)           
+
+   (short_version 116146) 
+
+   (song_length 267983) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Twice Born Men")   
+
+   (album_track_number 6)   
+
+   
+
+   (base_points 394417)
+)

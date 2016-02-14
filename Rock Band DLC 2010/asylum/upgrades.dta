@@ -1,0 +1,7 @@
+(asylum
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/asylum_plus.mid")
+   (song_id 1006156)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

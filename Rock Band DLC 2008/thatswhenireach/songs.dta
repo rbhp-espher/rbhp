@@ -1,0 +1,72 @@
+; RBDLC08 - 1005343 - Mission of Burma - That's When I Reach for My Revolver
+(thatswhenireach
+   (name "That's When I Reach for My Revolver")
+   (artist "Mission of Burma")
+   (master TRUE)
+   (context 493)
+   (song
+     (name        songs/thatswhenireach/thatswhenireach)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (    0.0   -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (   -1.0   -1.5 -1.5   -3.0 -3.0  -2.5  -3.5 -3.5  -2.0 -2.0  -3.5 -3.5 ))
+     (cores       (    -1     -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/thatswhenireach/thatswhenireach.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell3_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 188375 216000)
+   (rank
+      (drum 290)
+      (guitar 251)
+      (bass 291)
+      (vocals 160)
+      (band 251)
+   )
+   (genre punk)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1981)
+   (album_name "Signals, Calls and Marches")   
+
+   (album_track_number 1)   
+
+   (pack_name "Mission of Burma Pack 01")  
+
+   (base_points 611912)
+; Added from RB3 DTB
+(song_id 1005343)
+(song_length 240454)
+(solo (vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 0)
+)

@@ -1,0 +1,7 @@
+(onaplain
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/onaplain_plus.mid")
+   (song_id 1005268)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

@@ -1,0 +1,70 @@
+; RBDLC09 - 1005396 - Roy Orbison - Oh, Pretty Woman
+(ohprettywoman
+   (name "Oh, Pretty Woman")
+   (artist "Roy Orbison")
+   (master TRUE)
+   (context 549)
+   (song
+     (name        songs/ohprettywoman/ohprettywoman)
+     (vocal_parts 2)
+        (tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     
+
+     (pans        (  0.0  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0 -2.5  -3.0 -3.0  -6.5  -5.0 -5.0  -3.0 -3.0  -3.5 -3.5 ))
+     (cores       (  -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/ohprettywoman/ohprettywoman.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 15500 45000)
+   (rank
+      (drum 171)
+      (guitar 233)
+      (bass 140)
+      (vocals 130)
+      (band 170)
+   )
+   (genre poprock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1987)
+   (album_name "In Dreams: The Greatest Hits")   
+
+   (album_track_number 15)   
+
+   (pack_name "Roy Orbison Pack 01")  
+
+   (base_points 410200)
+; Added from RB3 DTB
+(song_id 1005396)
+(song_length 184545)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 scroll information
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

@@ -1,0 +1,7 @@
+(freefallin
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/freefallin_plus.mid")
+   (song_id 761)
+  ;(rbhp_author thomeval)
+  ;(rbhp_version 1)
+)

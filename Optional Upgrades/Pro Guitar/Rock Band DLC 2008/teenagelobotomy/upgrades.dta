@@ -1,0 +1,11 @@
+(teenagelobotomy
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/teenagelobotomy_plus.mid")
+   (song_id 1005052)
+   (rank
+      (real_guitar 220)
+      (real_bass 1)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

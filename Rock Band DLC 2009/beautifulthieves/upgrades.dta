@@ -1,0 +1,7 @@
+(beautifulthieves
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/beautifulthieves_plus.mid")
+   (song_id 1005851)
+   ;(rbhp_harmonies_author farottone)
+  ;(rbhp_version 1)
+)

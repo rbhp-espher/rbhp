@@ -1,0 +1,7 @@
+(idiotsrule
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/idiotsrule_plus.mid")
+   (song_id 1005531)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

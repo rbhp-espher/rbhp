@@ -1,0 +1,68 @@
+(thieves
+   (name "Thieves")
+   (artist "Ministry")
+   (master TRUE)
+   (context 1317)
+   (song
+     (name        "songs/thieves/thieves")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -4.5 -4.5   -5.0 -5.0  -2.0  -4.5 -4.5  -5.0 -5.0  -5.5 -5.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/thieves/thieves.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 21000 51000)
+   (rank
+      (drum 385)
+      (guitar 349)
+      (bass 285)
+      (vocals 140)
+      (band 375)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   (song_id 1006107)         
+
+   (rating 2)           
+
+   (short_version 143000) 
+
+   (song_length 300454) 
+
+   (album_art TRUE) 
+
+   (year_released 1989)
+   (album_name "The Mind is a Terrible Thing to Taste")   
+
+   (album_track_number 1)   
+
+   (pack_name "Ministry Pack 02")  
+
+   (base_points 774669)
+;(song_tonality 0)
+)

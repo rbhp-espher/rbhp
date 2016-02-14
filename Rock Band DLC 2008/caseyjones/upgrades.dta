@@ -1,0 +1,8 @@
+(caseyjones
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/caseyjones_plus.mid")
+   (song_id 1005065)
+   ;(rbhp_author thomeval)
+  ;(rbhp_version 1)
+  ;(rbhp_effort 0)
+)

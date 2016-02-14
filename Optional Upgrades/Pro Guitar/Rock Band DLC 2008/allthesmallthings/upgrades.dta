@@ -1,0 +1,11 @@
+(allthesmallthings
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/allthesmallthings_plus.mid")
+   (song_id 1005040)
+   (rank
+      (real_guitar 1)
+      (real_bass 1)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

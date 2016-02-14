@@ -1,0 +1,79 @@
+; RBDLC10 - 1006011 - The Used - Born to Quit
+(borntoquit
+   (name "Born to Quit")
+   (artist "The Used")
+   (master TRUE)
+   (context 1191)
+   (song
+     (name        "songs/borntoquit/borntoquit")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.1  -3.7 -3.7   -3.0 -3.0  -1.0  -4.0 -4.0  -5.0 -5.0  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/borntoquit/borntoquit.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 48000 78000)
+   (rank
+      (drum 271)
+      (guitar 329)
+      (bass 200)
+      (vocals 233)
+      (band 293)
+   )
+   (genre emo)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006011)         
+
+   (rating 2)           
+
+   (short_version 76294) 
+
+   (song_length 216226) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Artwork")   
+
+   (album_track_number 3)   
+
+   (pack_name "The Used Pack 01")  
+
+   (base_points 553146)
+; Added tonic info
+;(song_tonality 0)
+)

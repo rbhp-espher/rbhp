@@ -1,0 +1,58 @@
+; RBDLC08 - 1005052 - Ramones - Teenage Lobotomy
+(teenagelobotomy
+   (name "Teenage Lobotomy")  
+   (artist "Ramones")
+   (master TRUE)
+   (context 135)
+   (song
+     (name        songs/teenagelobotomy/teenagelobotomy)
+     (vocal_parts 2)
+     (tracks          
+        ((drum (0 1 2 3)) 
+         (bass 4) 
+         (guitar (5 6))
+         (vocals (7 8))  
+        ) 
+     )
+     ;                K    SN   CYMBALS  BASS  GUITAR    VOCALS   TRKS
+     (pans        (  0.0  0.0 -1.0  1.0  0.0 -1.0  1.0 -1.0  1.0  0.0 ))
+     (vols        (  0.0  0.0 -3.0 -3.0 -3.0 -3.0 -3.0 -3.0 -3.0 -3.0 ))
+     (cores       (  -1   -1   -1   -1   -1    1    1   -1   -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/teenagelobotomy/teenagelobotomy.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 13142 43100)
+   (rank
+      (drum 270)
+      (guitar 245)
+      (bass 227)
+      (vocals 135)
+      (band 210)
+   )
+   (genre punk)
+   (decade the70s)
+   (downloaded TRUE)
+   (vocal_gender male); Added from RB3 DTB
+(song_id 1005052)
+(song_length 126363)
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 1)
+(year_released 1977)
+(alternate_path TRUE)
+(album_art TRUE)
+(album_name "Rocket to Russia")
+(album_track_number 8)
+; Added RB3 scroll information
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

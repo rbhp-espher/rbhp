@@ -1,0 +1,72 @@
+; RBDLC09 - 1005573 - Ben Harper and Relentless7 - Shimmer & Shine
+(shimmerandshine
+   (name "Shimmer & Shine")
+   (artist "Ben Harper and Relentless7")
+   (master TRUE)
+   (context 718)
+   (song
+     (name        songs/shimmerandshine/shimmerandshine)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.2  -0.1 -0.1  -0.4  -0.9 -0.9  -0.9 -0.9  -0.7 -0.7 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/shimmerandshine/shimmerandshine.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 43500 73100)
+   (rank
+      (drum 320)
+      (guitar 247)
+      (bass 238)
+      (vocals 311)
+      (band 252)
+   )
+   (genre alternative)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "White Lies For Dark Times")   
+
+   
+
+   
+
+   (base_points 486576)
+; Added from RB3 DTB
+(song_id 1005573)		
+(song_length 194545)		
+(solo (drum guitar vocal_percussion))
+(format 10)		
+(game_origin rb1_dlc)		
+(rating 1)		
+
+; Added tonic info
+;(vocal_tonic_note 0)
+;(song_tonality 0)
+)

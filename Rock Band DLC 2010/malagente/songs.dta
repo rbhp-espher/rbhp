@@ -1,0 +1,86 @@
+; RBDLC10 - 1005945 - Juanes - Mala Gente
+(malagente
+   (name "Mala Gente")
+   (artist "Juanes")
+   (master TRUE)
+   (context 1305)
+   (song
+     (name        "songs/malagente/malagente")
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.5 -3.5  -3.5 -3.5  -3.5 -3.5  -3.5 -3.5  -3.5 -3.5 ))
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/malagente/malagente.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 133770 163770)
+   (rank
+      (drum 219)
+      (guitar 280)
+      (bass 225)
+      (vocals 255)
+      (band 255)
+   )
+   
+   
+
+   (solo (guitar))
+
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 11)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005945)         
+
+   (rating 2)           
+
+   (short_version 101331) 
+
+   (song_length 200521) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2002) 
+
+   (album_name "Un Día Normal")   
+
+   (album_track_number 8)   
+
+   (pack_name "Juanes Pack 01")  
+
+   (base_points 410131)
+   (encoding latin1) 
+
+;(song_tonality 0)
+)

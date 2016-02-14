@@ -1,0 +1,81 @@
+; RBDLC10 - 1006184 - R.E.M. - Radio Free Europe
+(radiofreeeurope
+   (name "Radio Free Europe")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1414)
+   (song
+     (name        "songs/radiofreeeurope/radiofreeeurope")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 2)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -4.5 -4.5   -4.5 -4.5  -1.2  -4.0 -4.0  -3.5 -3.5  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/radiofreeeurope/radiofreeeurope.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents 10)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 140000 170000)
+   (rank
+      (drum 209)
+      (guitar 193)
+      (bass 229)
+      (vocals 180)
+      (band 202)
+   )
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 9)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006184)         
+
+   (rating 1)           
+
+   (short_version 110751) 
+
+   (song_length 244545) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1983) 
+
+   (album_name "Murmur")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 655847)
+; Added RB3 scroll information   
+
+(song_tonality 0)
+)

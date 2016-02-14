@@ -1,0 +1,87 @@
+; RBDLC10 - 1006143 - Juanes - Gotas de Agua Dulce
+(gotasdeaguadulce
+   (name "Gotas de Agua Dulce")
+   (artist "Juanes")
+   (master TRUE)
+   (context 1303)
+   (song
+     (name        "songs/gotasdeaguadulce/gotasdeaguadulce")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5  -3.5 -3.5   -4.0 -4.0  -6.5  -8.5 -8.5  -4.8 -4.8  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/gotasdeaguadulce/gotasdeaguadulce.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 63500 93300)
+   (rank
+      (drum 217)
+      (guitar 206)
+      (bass 180)
+      (vocals 233)
+      (band 209)
+   )
+   
+   
+
+   
+
+
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 4)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006143)         
+
+   (rating 2)           
+
+   (short_version 147078) 
+
+   (song_length 214545) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2007) 
+
+   (album_name "La Vida... Es un Ratico")   
+
+   (album_track_number 6)   
+
+   (pack_name "Juanes Pack 01")  
+
+   (base_points 427713)
+   (encoding latin1) 
+
+(song_tonality 0)
+)

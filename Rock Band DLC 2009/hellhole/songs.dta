@@ -1,0 +1,74 @@
+(hellhole
+   (name "Hell Hole")
+   (artist "Spinal Tap")
+   (master TRUE)
+   (context 818)
+   (song
+     (name        songs/hellhole/hellhole)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -2.5 -2.5   -4.0 -4.0  -3.5  -3.4 -3.4  -1.2 -1.2  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/hellhole/hellhole.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 46393 76393)
+   (rank
+      (drum 196)
+      (guitar 310)
+      (bass 161)
+      (vocals 196)
+      (band 228)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   (song_id 1005753)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Back From The Dead")   
+
+   (album_track_number 12)   
+
+   (pack_name "Spinal Tap's TAP TEN")  
+
+   (base_points 425626)
+; Added from RB3 DTB
+(song_length 212272)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 1)
+)

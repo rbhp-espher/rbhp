@@ -1,0 +1,7 @@
+(runningwild
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/runningwild_plus.mid")
+   (song_id 1005192)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

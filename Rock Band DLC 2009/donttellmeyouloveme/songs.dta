@@ -1,0 +1,81 @@
+; RBDLC09 - 1005824 - Night Ranger - Don't Tell Me You Love Me
+(donttellmeyouloveme
+   (name "Don't Tell Me You Love Me")
+   (artist "Night Ranger")
+   (master TRUE)
+   (context 1017)
+   (song
+     (name        "songs/donttellmeyouloveme/donttellmeyouloveme")
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -4.5 -4.5   -4.5 -4.5  -1.5  -4.5 -4.5  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/donttellmeyouloveme/donttellmeyouloveme.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 47000 77000)
+   (rank
+      (drum 268)
+      (guitar 414)
+      (bass 257)
+      (vocals 220)
+      (band 358)
+   )
+   (genre rock)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005824)         
+
+   (rating 1)           
+
+   (short_version 130370) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Night Ranger Rock Band Re-Record")   
+
+   (album_track_number 2)   
+
+   (pack_name "Night Ranger Pack 01")  
+
+   (base_points 644738)
+; Added from RB3 DTB
+(song_length 269545)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(year_released 1982)
+(year_recorded 2009)
+(extra_authoring disc_update)
+; ADded RB3 tonic information
+(vocal_tonic_note 6)
+(song_tonality 1)
+)

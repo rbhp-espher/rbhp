@@ -1,0 +1,58 @@
+; RB1 - 30 - As Made Famous by Black Sabbath - Paranoid
+(paranoid
+  (name "Paranoid")
+  (artist "Black Sabbath")
+  (context 18)
+  (song
+    (name "songs/paranoid/paranoid")
+      (tracks
+           ((drum (0 1 2 3))
+            (bass 4)
+            (guitar (5 6))
+            (vocals(7 8))
+           )
+      )
+
+   (pans (0.00 0.00 -1.00 1.00 0.00 1.00 1.00 -1.00 1.00 -1.00 1.00))
+   (vols (0.00 0.00 -1.50 -1.50 -1.50 -4.50 -4.50 -6.00 -6.00 -6.00 -6.00))
+   (cores (-1 -1 -1 -1 -1 1 1 -1 -1 -1 -1))
+   (drum_solo
+      (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+   )
+   (drum_freestyle
+      (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+   )
+   (midi_file "songs/paranoid/paranoid.mid")
+  )
+  (song_scroll_speed 2300)   
+  (bank sfx/tambourine_bank.milo)
+  (anim_tempo 32)
+  (preview 15000 38600)
+  (rank
+   (drum 270)
+   (guitar 310)
+   (bass 310)
+   (vocals 105)
+   (band 310)
+  )
+  (genre metal)
+  (decade the70s)
+  (vocal_gender male)
+  (song_location 2)
+   (downloaded TRUE)
+   (exported TRUE)
+ 	; Added from RB3 DTB
+  (song_id 30)
+	(song_length 179545)
+	(solo (guitar))
+	(format 10)
+	(version 1)
+	(game_origin rb1)
+	(rating 1)
+	(year_released 1970)
+	(alternate_path TRUE)
+	(album_art FALSE)
+ 	; Added RB3 scroll information
+	(vocal_tonic_note 4)
+	(song_tonality 0)
+)

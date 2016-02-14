@@ -1,0 +1,68 @@
+; RBDLC08 - 1005348 - Lamb of God - Laid to Rest
+(laidtorest
+   (name "Laid to Rest")
+   (artist "Lamb of God")
+   (master TRUE)
+   (context 507)
+   (song
+     (name        songs/laidtorest/laidtorest)
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        ( -0.0   -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.0   -1.0 -1.0   -3.0 -3.0  -3.0  -3.0 -3.0  -3.5 -3.5  -3.0 -3.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/laidtorest/laidtorest.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 58300 86200)
+   (rank
+      (drum 369)
+      (guitar 362)
+      (bass 485)
+      (vocals 130)
+      (band 384)
+   )
+   (genre metal)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 2)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2004)
+   (album_name "Ashes of the Wake")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 575505)
+; Added from RB3 DTB
+(song_id 1005348)
+(song_length 230909)
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+)

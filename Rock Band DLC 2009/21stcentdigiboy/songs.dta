@@ -1,0 +1,73 @@
+; RBDLC09 - 1005604 - Bad Religion - 21st Century (Digital Boy)
+(21stcentdigiboy
+   (name "21st Century (Digital Boy)")
+   (artist "Bad Religion")
+   (master TRUE)
+   (context 758)
+   (song
+     (name        songs/21stcentdigiboy/21stcentdigiboy)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals 8)
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0   0.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0   -4.0 -4.0  -6.0  -3.2 -3.2  -3.7  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/21stcentdigiboy/21stcentdigiboy.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 36500 67000)
+   (rank
+      (drum 236)
+      (guitar 208)
+      (bass 196)
+      (vocals 182)
+      (band 222)
+   )
+   (genre punk)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 1990)
+   (album_name "Against the Grain")   
+
+   (album_track_number 13)   
+
+   (pack_name "Warped Tour 2009 Pack 01")  
+
+   (base_points 488170)
+; Added from RB3 DTB
+(song_id 1005604)	
+(preview 36500 66500)
+(song_length 173181)	
+(solo (guitar))	
+(format 10)	
+(game_origin rb1_dlc)	
+(rating 2)	
+(extra_authoring disc_update)	
+; Added RB3 scroll information
+(vocal_tonic_note 1)
+(song_tonality 1)
+)

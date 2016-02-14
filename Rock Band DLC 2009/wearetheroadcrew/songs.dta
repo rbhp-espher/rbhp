@@ -1,0 +1,81 @@
+﻿; RBDLC09 - 1005786 - Motörhead - (We Are) The Road Crew '08
+(wearetheroadcrew
+   (name "(We Are) The Road Crew '08")
+   (artist "Motörhead")
+   (master TRUE)
+   (context 959)
+   (song
+     (name        songs/wearetheroadcrew/wearetheroadcrew)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0 -1.0  -2.0 -2.0   -3.0 -3.0  -2.0  -3.0 -3.0  -2.0 -2.0  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/wearetheroadcrew/wearetheroadcrew.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 32230 62230)
+   (rank
+      (drum 274)
+      (guitar 385)
+      (bass 373)
+      (vocals 147)
+      (band 342)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005786)         
+
+   (rating 2)           
+
+   (short_version 111804) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "(We Are) The Road Crew '08")   
+
+   
+
+   (pack_name "Brütal Legend Pack")  
+
+   (base_points 543736)
+; Added from RB3 DTB
+(song_length 171818)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(year_released 1980)
+(year_recorded 2008)
+(encoding latin1)
+; Added RB3 scroll information
+(vocal_tonic_note 8)
+(song_tonality 1)
+)

@@ -1,0 +1,7 @@
+(monsterskillet
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/monsterskillet_plus.mid")
+   (song_id 1006003)
+   ;(rbhp_harmonies_author Espher)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,73 @@
+; RBDLC09 - 1005854 - Slipknot - Sulfur
+(sulpher
+   (name "Sulfur")
+   (artist "Slipknot")
+   (master TRUE)
+   (context 1024)
+   (song
+     (name        "songs/sulpher/sulpher")
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0  -5.0 -5.0   -5.0 -5.0  -2.0  -5.0 -5.0  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/sulpher/sulpher.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 90500 120500)
+   (rank
+      (drum 434)
+      (guitar 412)
+      (bass 390)
+      (vocals 251)
+      (band 415)
+   )
+   (genre numetal)
+   (decade the00s)
+   (vocal_gender male)
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   (song_id 1005854)         
+
+   (rating 2)           
+
+   (short_version 123200) 
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "All Hope Is Gone")   
+
+   (album_track_number 3)   
+
+   (pack_name "Slipknot Pack 01")  
+
+   (base_points 843456)
+; Added from RB3 DTB
+(song_length 280909)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(extra_authoring disc_update)
+)

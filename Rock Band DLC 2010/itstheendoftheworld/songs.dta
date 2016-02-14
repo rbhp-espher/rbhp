@@ -1,0 +1,88 @@
+; RBDLC10 - 1006167 - R.E.M. - It's the End of the World as We Know It
+(itstheendoftheworld
+   (name "It's the End of the World as We Know It")
+   (artist "R.E.M.")
+   (master TRUE)
+   (context 1412)
+   (song
+     (name        "songs/itstheendoftheworld/itstheendoftheworld")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0  0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.5  -3.5 -3.5   -3.5 -3.5 -4.0  -3.2 -3.2  -3.0 -3.0  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1     -1   -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/itstheendoftheworld/itstheendoftheworld.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 53011 83011)
+   (rank
+      (drum 194)
+      (guitar 199)
+      (bass 225)
+      (vocals 245)
+      (band 200)
+   )
+
+ 
+
+   
+
+   
+
+
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 7)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006167)         
+
+   (rating 1)           
+
+   (short_version 128336) 
+
+   (song_length 247727) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1987) 
+
+   (album_name "Document")   
+
+   (album_track_number 6)   
+
+   
+
+   (base_points 662037)
+; Added RB3 scroll information
+(song_tonality 0)
+)

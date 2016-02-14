@@ -1,0 +1,7 @@
+(psychosocial
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/psychosocial_plus.mid")
+   (song_id 1005853)
+   ;(rbhp_harmonies_author Espher)
+  ;(rbhp_version 1)
+)

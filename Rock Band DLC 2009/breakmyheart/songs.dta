@@ -1,0 +1,70 @@
+(breakmyheart
+   (name "Break My Heart")
+   (artist "Nikko")
+   (master TRUE)
+   (context 574)
+   (song
+     (name        songs/breakmyheart/breakmyheart)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5 -0.5  -0.5 -0.5  -3.5 -3.5  -2.0  -4.0 -4.0  -3.5 -3.5  -6.0 -6.0 ))
+     (cores       (  -1   -1    -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/breakmyheart/breakmyheart.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 37523 67337)
+   (rank
+      (drum 210)
+      (guitar 256)
+      (bass 246)
+      (vocals 212)
+      (band 235)
+   )
+   (genre poprock)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Spectacular! Music from the Nickelodeon Original Movie")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 490278)
+; Added from RB3 DTB
+(song_id 1005424)
+(song_length 192272)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 tonic info
+(vocal_tonic_note 8)
+(song_tonality 1)
+)

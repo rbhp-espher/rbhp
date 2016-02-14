@@ -1,0 +1,7 @@
+(burn
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/burn_plus.mid")
+   (song_id 1005177)
+   ;(rbhp_author Not_Set)
+  ;(rbhp_version 1)
+)

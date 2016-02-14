@@ -1,0 +1,68 @@
+; RBDLC08 - 1005202 - The Darkest of the Hillside Thickets - Shhh....
+(shhh
+   (name "Shhh....")
+   (artist "The Darkest of the Hillside Thickets")
+   (master TRUE)
+   (context 374)
+   (song
+     (name        songs/shhh/shhh)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (   0.0  -1.0  1.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -0.5  -1.0 -1.0  -1.5 -1.5  -3.0  -3.0 -3.0  -3.0 -3.0  -3.0 -3.0 ))
+     (cores       (   -1    -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/shhh/shhh.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 79615 109615)
+   (rank
+      (drum 270)
+      (guitar 169)
+      (bass 117)
+      (vocals 166)
+      (band 180)
+   )
+   (genre rock)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+
+   (format 3)
+   (version 1)               
+
+   (album_art TRUE) 
+
+   (year_released 2008)
+   (album_name "The Shadow Out of Tim (Unreleased Track)")   
+
+   (album_track_number 16)   
+
+   (pack_name "The PAX 2008 Collection")
+   (base_points 812562)
+; Added from RB3 DTB
+(song_id 1005202)
+(song_length 268636)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 scroll information
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

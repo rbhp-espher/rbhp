@@ -1,0 +1,7 @@
+(onlyamemory
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/onlyamemory_plus.mid")
+   (song_id 1006058)
+   ;(rbhp_author Nyxyxylyth)
+  ;(rbhp_version 1)
+)

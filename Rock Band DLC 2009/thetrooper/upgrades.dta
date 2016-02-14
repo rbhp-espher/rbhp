@@ -1,0 +1,5 @@
+(thetrooper
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/thetrooper_plus.mid")
+	(song_id 1005587)
+)

@@ -1,0 +1,7 @@
+(thetrees
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/thetrees_plus.mid")
+   (song_id 319)
+   ;(rbhp_author sageamagoo)
+  ;(rbhp_version 1)
+)

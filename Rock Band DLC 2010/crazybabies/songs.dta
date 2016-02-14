@@ -1,0 +1,82 @@
+; RBDLC10 - 1006026 - Ozzy Osbourne - Crazy Babies
+(crazybabies
+   (name "Crazy Babies")
+   (artist "Ozzy Osbourne")
+   (master TRUE)
+   (context 1257)
+   (song
+     (name        "songs/crazybabies/crazybabies")
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.9 -4.9  -3.9 -3.9  -3.9 -3.9  -2.9  -2.8 -2.8  -3.9 -3.9  -5.6 -5.6 ))
+     (cores       (  -1   -1    -1   -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/crazybabies/crazybabies.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 34731 64731)
+   (rank
+      (drum 307)
+      (guitar 341)
+      (bass 180)
+      (vocals 241)
+      (band 323)
+   )
+   (genre metal)
+   (decade the80s)
+   (vocal_gender male)
+   (vocal_tonic_note 3)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006026)         
+
+   (rating 1)           
+
+   (short_version 122981) 
+
+   (song_length 258826) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1988)
+   (album_name "No Rest for the Wicked")   
+
+   (album_track_number 3)   
+
+   (pack_name "Ozzy Osbourne Pack 01")  
+
+   (base_points 566371)
+; Added from RB3 DTB
+(solo (guitar vocal_percussion))
+(format 10)
+; Added RB3 scroll information
+(song_tonality 1)
+)

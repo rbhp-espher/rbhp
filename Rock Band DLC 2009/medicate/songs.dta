@@ -1,0 +1,75 @@
+(medicate
+   (name "Medicate")
+   (artist "AFI")
+   (master TRUE)
+   (context 1001)
+   (song
+     (name        "songs/medicate/medicate")
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.2  -4.0 -4.0   -7.0 -7.0  -4.5  -7.5 -7.5  -6.0 -6.0  -6.2 -6.2 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/medicate/medicate.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 048947 078919)
+   (rank
+      (drum 295)
+      (guitar 264)
+      (bass 262)
+      (vocals 247)
+      (band 278)
+   )
+   (genre alternative)
+   (decade the00s)
+   (vocal_gender male)
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   (song_id 1005855)         
+
+   (rating 2)           
+
+   (short_version 139767) 
+
+   (album_art TRUE) 
+
+   (year_released 2009)
+   (album_name "Crash Love")   
+
+   (album_track_number 7)   
+
+   (pack_name "AFI Pack 01")  
+
+   (base_points 629190)
+; Added from RB3 DTB
+(song_id 1005855)
+(song_length 260454)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 8)
+(song_tonality 1)
+)

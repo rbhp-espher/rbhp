@@ -1,0 +1,7 @@
+(ladybug
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/ladybug_plus.mid")
+   (song_id 1005300)
+   ;(rbhp_author espher)
+;(rbhp_version 1)
+)

@@ -1,0 +1,87 @@
+; RBDLC10 - 1006195 - The Jimi Hendrix Experience - Foxey Lady
+(foxeylady
+   (name "Foxey Lady")
+   (artist "The Jimi Hendrix Experience")
+   (master TRUE)
+   (context 1430)
+   (song
+     (name        "songs/foxeylady/foxeylady")
+     (tracks
+        ((drum (0 1))
+         (bass 2)
+         (guitar (3 4))
+         (vocals (5 6))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  -1.0  1.0     0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  -5.0 -5.0    -2.0  -4.2 -4.2  -5.0 -5.0  -5.0 -5.0 ))
+     (cores       (   -1   -1      -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/foxeylady/foxeylady.mid")
+   )
+   (song_scroll_speed 2300)
+   
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 60000 90000)
+   (rank
+      (drum 300)
+      (guitar 322)
+      (bass 221)
+      (vocals 255)
+      (band 311)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre classicrock)
+   (decade the60s)
+   (vocal_gender male)
+   (vocal_tonic_note 6)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006195)         
+
+   (rating 1)           
+
+   (short_version 107688) 
+
+   (song_length 206247) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1967) 
+
+   (album_name "Are You Experienced")   
+
+   (album_track_number 10)   
+
+   
+
+   (base_points 418285)
+; Added RB3 scroll information
+(song_tonality 1)
+)

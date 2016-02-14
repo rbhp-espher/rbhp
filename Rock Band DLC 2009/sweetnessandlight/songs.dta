@@ -1,0 +1,79 @@
+(sweetnessandlight
+   (name "Sweetness and Light")
+   (artist "Lush")
+   (master TRUE)
+   (context 795)
+   (song
+     (name        songs/sweetnessandlight/sweetnessandlight)
+     (vocal_parts 2)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass (6 7))
+         (guitar (8 9))
+         (vocals (10 11))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -2.0 -2.0  -1.6 -1.6   -4.0 -4.0  -4.0 -4.0  -3.0 -3.0  -2.0 -2.0  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/sweetnessandlight/sweetnessandlight.mid)
+   )
+   (tuning_offset_cents -65)
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 58702 86897)
+   (rank
+      (drum 221)
+      (guitar 146)
+      (bass 151)
+      (vocals 106)
+      (band 165)
+   )
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender female)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE)    
+   (game_origin rb1) 
+
+   
+   (song_id 1005706)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1990)
+   (album_name "Gala")   
+
+   (album_track_number 1)   
+
+   
+
+   (base_points 614804)
+; Added from RB3 DTB
+(song_length 325909)
+(solo (guitar vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+(tuning_offset_cents -50) ; This actually does seem to be closer to 65 but hey.
+; Added RB3 tonic info
+(vocal_tonic_note 3)
+(song_tonality 0)
+)

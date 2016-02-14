@@ -1,0 +1,5 @@
+(everlong
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/everlong_plus.mid")
+	(song_id 271)
+)

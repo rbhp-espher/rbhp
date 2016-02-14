@@ -1,0 +1,82 @@
+(ridininmychevy
+   (name "Ridin' in My Chevy")
+   (artist "Snoop Dogg")
+   (master TRUE)
+   (context 1373)
+   (song
+     (name        "songs/ridininmychevy/ridininmychevy")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -4.5 -4.5   -4.0 -4.0  -1.5  -4.3 -4.3  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/ridininmychevy/ridininmychevy.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 18384 48384)
+   (rank
+      (drum 319)
+      (guitar 230)
+      (bass 168)
+      (vocals 120)
+      (band 273)
+   )
+
+   
+
+   
+
+   (solo (guitar))
+
+   (genre urban)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 10)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005886)         
+
+   (rating 2)           
+
+   (short_version 108744) 
+
+   (song_length 216818) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Snoop Dogg Rock Band Mix")   
+
+   (album_track_number 4)   
+
+   (pack_name "Snoop Dogg Pack 01")  
+
+   (base_points 454425)
+(song_tonality 0)
+)

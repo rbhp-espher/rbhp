@@ -1,0 +1,85 @@
+; RBDLC10 - 1006055 - Creedence Clearwater Revival - I Heard It Through the Grapevine
+(ihearditthrough
+   (name "I Heard It Through the Grapevine")
+   (artist "Creedence Clearwater Revival")
+   (master TRUE)
+   (context 1280)
+   (song
+     (name        "songs/ihearditthrough/ihearditthrough")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -4.5 -4.5   -4.5 -4.5  -1.0  -4.5 -4.5  -4.5 -4.5  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/ihearditthrough/ihearditthrough.mid")
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents -10)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 30836 60836)
+   (rank
+      (drum 330)
+      (guitar 309)
+      (bass 311)
+      (vocals 241)
+      (band 312)
+   )
+
+   
+
+
+   (genre southernrock)
+   (decade the70s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 6)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006055)         
+
+   (rating 1)           
+
+   (short_version 134373) 
+
+   (song_length 614736) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 1970)
+   (album_name "Cosmo's Factory")   
+
+   (album_track_number 10)   
+
+   (pack_name "Creedence Clearwater Revival Pack 01")  
+
+   (base_points 1378040)
+; Added from RB3 DTB
+(solo (guitar vocal_percussion))
+(format 10)
+; Added RB3 scroll information
+(song_tonality 1)
+)

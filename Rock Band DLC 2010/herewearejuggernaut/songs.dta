@@ -1,0 +1,78 @@
+; RBDLC10 - 1006020 - Coheed and Cambria - Here We Are Juggernaut
+(herewearejuggernaut
+   (name "Here We Are Juggernaut")
+   (artist "Coheed and Cambria")
+   (master TRUE)
+   (context 1194)
+   (song
+     (name        "songs/herewearejuggernaut/herewearejuggernaut")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.5  -3.5 -3.5   -3.5 -3.5  -3.0  -2.4 -2.4  -3.0 -3.0  -4.5 -4.5 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/herewearejuggernaut/herewearejuggernaut.mid")
+   )
+   (song_scroll_speed 2300)
+    
+
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoFast)
+   (preview 36327 66327)
+   (rank
+      (drum 383)
+      (guitar 305)
+      (bass 230)
+      (vocals 234)
+      (band 344)
+   )
+   (genre prog)
+   (decade the10s)
+   (vocal_gender male)
+   (vocal_tonic_note 1)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1006020)         
+
+   (rating 2)           
+
+   (short_version 134705) 
+
+   (song_length 226818) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2010)
+   (album_name "Year of the Black Rainbow")   
+
+   (album_track_number 4)   
+
+   
+
+   (base_points 494790)
+;(song_tonality 0)
+)

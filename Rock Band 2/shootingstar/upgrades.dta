@@ -1,0 +1,5 @@
+(shootingstar
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/shootingstar_plus.mid")
+	(song_id 309)
+)

@@ -1,0 +1,75 @@
+(guerrillaradio
+   (name "Guerrilla Radio")
+   (artist "Rage Against the Machine")
+   (master TRUE)
+   (context 854)
+   (song
+     (name        songs/guerrillaradio/guerrillaradio)
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -4.0 -4.0   -4.5 -4.5  -4.9  -6.0 -6.0  -4.0 -4.0  -6.0 -6.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/guerrillaradio/guerrillaradio.mid)
+     (hopo_threshold 90)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 74025 104025)
+   (rank
+      (drum 297)
+      (guitar 216)
+      (bass 238)
+      (vocals 131)
+      (band 238)
+   )
+   (genre alternative)
+   (decade the90s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005775)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1999)
+   (album_name "The Battle of Los Angeles")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 447233)
+; Added from RB3 DTB
+(song_length 210454)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+)

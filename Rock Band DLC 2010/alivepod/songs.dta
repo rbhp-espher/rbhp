@@ -1,0 +1,77 @@
+(alivepod
+   (name "Alive")
+   (artist "P.O.D.")
+   (master TRUE)
+   (context 1247)
+   (song
+     (name        "songs/alivepod/alivepod")
+     (tracks
+        ((drum (0 1 2 3 4))
+         (bass 5)
+         (guitar (6 7))
+         (vocals (8 9))
+        )
+     )
+     (vocal_parts 3)
+     
+
+     (pans        (  0.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -3.5 -3.5   -4.5 -4.5  -1.5  -3.7 -3.7  -4.3 -4.3  -6.0 -6.0 ))
+     (cores       (  -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/alivepod/alivepod.mid")
+     (hopo_threshold 90)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 35201 65201)
+   (rank
+      (drum 242)
+      (guitar 193)
+      (bass 171)
+      (vocals 161)
+      (band 218)
+   )
+   (genre numetal)
+   (decade the00s)
+   (vocal_gender male)
+   (vocal_tonic_note 2)
+
+   (format 5)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1_dlc) 
+
+   
+   (song_id 1005983)         
+
+   (rating 2)           
+
+   (short_version 112773) 
+
+   (song_length 208210) 
+
+   
+
+
+   (album_art TRUE) 
+
+   (year_released 2001)
+   (album_name "Satellite")   
+
+   (album_track_number 2)   
+
+   
+
+   (base_points 564496)
+; Added RB3 tonic info
+(song_tonality 1)
+)

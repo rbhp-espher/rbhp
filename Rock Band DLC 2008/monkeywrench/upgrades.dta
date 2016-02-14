@@ -1,0 +1,7 @@
+(monkeywrench
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/monkeywrench_plus.mid")
+   (song_id 1005334)
+   ;(rbhp_author GreenPanda12)
+  ;(rbhp_version 1)
+)

@@ -1,0 +1,61 @@
+; RBDLC08 - 1005065 - The Grateful Dead - Casey Jones
+(caseyjones
+   (name "Casey Jones")
+   (artist "The Grateful Dead")
+   (master TRUE)
+   (context 143)
+   (song
+     (name        songs/caseyjones/caseyjones)
+     (vocal_parts 2)
+	(tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -1.0 -1.0  -3.0  -2.5 -2.5  -3.0 -3.0  -3.5 -3.5 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/caseyjones/caseyjones.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoSlow)
+   (preview 4643 33715)
+   (rank
+      (drum 330)
+      (guitar 312)
+      (bass 301)
+      (vocals 175)
+      (band 300)
+   )
+   (genre classicrock)
+   (decade the70s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005065)
+(song_length 270000)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 1)
+(game_origin rb1_dlc)
+(rating 2)
+(year_released 1970)
+(alternate_path TRUE)
+(album_art TRUE)
+(album_name "Workingman's Dead")
+(album_track_number 8)
+; Added RB3 scroll information
+(vocal_tonic_note 0)
+(song_tonality 0)
+)

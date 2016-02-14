@@ -1,0 +1,67 @@
+(iknowwhereyou
+   (name "I Know Where You Came From")
+   (artist "Hautewerk")
+   (master TRUE)
+   (context 668)
+   (song
+     (name        songs/iknowwhereyou/iknowwhereyou)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3))
+         (bass 4)
+         (guitar (5 6))
+         (vocals 7)
+        )
+     )
+     
+
+     (pans        (  0.0   0.0   -1.0  1.0   0.0  -1.0  1.0   0.0  -1.0  1.0 ))
+     (vols        ( -0.2  -0.2   -5.0 -5.0  -3.0  -4.0 -4.0  -1.5  -4.0 -4.0 ))
+     (cores       (  -1    -1     -1   -1    -1     1    1    -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/iknowwhereyou/iknowwhereyou.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 43259 73259)
+   (rank
+      (drum 126)
+      (guitar 208)
+      (bass 122)
+      (vocals 127)
+      (band 138)
+   )
+   (genre indierock)
+   (decade the00s)
+   (vocal_gender male)
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+   (album_art TRUE) 
+
+   (year_released 2006)
+   (album_name "Stop Start Again")   
+
+   (album_track_number 8)   
+
+   (pack_name "Hautewerk Pack 01")  
+
+   (base_points 356277)
+; Added from RB3 DTB
+(song_id 1005519)
+(song_length 195909)
+(format 10)
+(game_origin rb1_dlc)
+(rating 1)
+; Added RB3 tonic info
+(vocal_tonic_note 7)
+(song_tonality 0)
+)

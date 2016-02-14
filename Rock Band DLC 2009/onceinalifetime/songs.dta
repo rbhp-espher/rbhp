@@ -1,0 +1,78 @@
+; RBDLC09 - 1005770 - Talking Heads - Once in a Lifetime
+(onceinalifetime
+   (name "Once in a Lifetime")
+   (artist "Talking Heads")
+   (master TRUE)
+   (context 851)
+   (song
+     (name        songs/onceinalifetime/onceinalifetime)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2))
+         (bass 3)
+         (guitar (4 5))
+         (vocals (6 7))
+        )
+     )
+     
+
+     (pans        (  0.0  -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0  -3.6 -3.6  -1.0  -5.5 -5.5  -4.0 -4.0  -4.0 -4.0 ))
+     (cores       (  -1    -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/onceinalifetime/onceinalifetime.mid)
+   )
+   (song_scroll_speed 2300)
+   (tuning_offset_cents -25)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 35000 65000)
+   (rank
+      (drum 278)
+      (guitar 286)
+      (bass 129)
+      (vocals 183)
+      (band 268)
+   )
+   (genre new_wave)
+   (decade the80s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005770)         
+
+   (rating 2)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 1980)
+   (album_name "Remain In Light")   
+
+   (album_track_number 4)   
+
+   (pack_name "Talking Heads Pack 01")  
+
+   (base_points 583775)
+; Added from RB3 DTB
+(song_length 272727)
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 9)
+(song_tonality 0)
+)

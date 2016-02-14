@@ -1,0 +1,11 @@
+(traininvain
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/traininvain_plus.mid")
+   (song_id 1005101)
+   (rank
+      (real_guitar 220)
+      (real_bass 268)
+   )
+   (real_guitar_tuning (0 0 0 0 0 0))
+   (real_bass_tuning (0 0 0 0))
+)

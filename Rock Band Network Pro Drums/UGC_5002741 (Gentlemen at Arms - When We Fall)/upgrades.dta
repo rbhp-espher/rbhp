@@ -1,0 +1,8 @@
+; Gentlemen at Arms - When We Fall
+(UGC_5002741
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5002741_plus.mid")
+	(song_id 5002741)
+	;(rbhp_prodrums_author steve25469)
+	;(rbhp_version 1)
+)

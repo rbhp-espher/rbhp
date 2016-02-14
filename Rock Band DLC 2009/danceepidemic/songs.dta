@@ -1,0 +1,81 @@
+; RBDLC09 - 1005780 - Electric Six - Dance Epidemic
+(danceepidemic
+   (name "Dance Epidemic")
+   (artist "Electric Six")
+   (master TRUE)
+   (context 898)
+   (song
+     (name        songs/danceepidemic/danceepidemic)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -4.0 -4.0  -4.0 -4.0   -4.0 -4.0  -4.0  -4.0 -4.0  -3.0 -3.0  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/danceepidemic/danceepidemic.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 38000 68000)
+   (rank
+      (drum 289)
+      (guitar 240)
+      (bass 201)
+      (vocals 287)
+      (band 252)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+   
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005780)         
+
+   (rating 2)           
+
+   (short_version 92000) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2005)
+   (album_name "Señor Smoke")   
+
+   (album_track_number 6)   
+
+   (video_venues (video_04))
+   (pack_name "Electric Six Pack 01")  
+
+   (base_points 416999)
+; Added from RB3 DTB
+(song_length 170454)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+;(encoding latin1)
+(encoding utf8)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

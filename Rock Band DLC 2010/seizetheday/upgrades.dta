@@ -1,0 +1,7 @@
+(seizetheday
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/seizetheday_plus.mid")
+   (song_id 1006140)
+   ;(rbhp_harmonies_author Espher)
+   ;(rbhp_version 1)
+)

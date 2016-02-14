@@ -1,0 +1,7 @@
+(walkingonthemoon
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/walkingonthemoon_plus.mid")
+   (song_id 130664)
+   ;(rbhp_author farottone)
+  ;(rbhp_version 1)
+)

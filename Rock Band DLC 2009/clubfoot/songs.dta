@@ -1,0 +1,78 @@
+(clubfoot
+   (name "Club Foot")
+   (artist "Kasabian")
+   (master TRUE)
+   (context 997)
+   (song
+     (name        "songs/clubfoot/clubfoot")
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2))
+         (bass (3 4))
+         (guitar (5 6))
+         (vocals (7 8))
+        )
+     )
+     
+
+     (pans        (  0.0   -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.0   -3.0 -3.0  -5.5 -5.5  -4.0 -4.0  -3.5 -3.5  -4.0 -4.0 ))
+     (cores       (  -1     -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file "songs/clubfoot/clubfoot.mid")
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 63529 93529)
+   (rank
+      (drum 258)
+      (guitar 139)
+      (bass 220)
+      (vocals 144)
+      (band 211)
+   )
+   (genre rock)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 4)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})   
+   (downloaded TRUE) 
+   (game_origin rb1) 
+
+   
+   (song_id 1005645)         
+
+   (rating 1)           
+
+   (short_version 0) 
+
+
+   (album_art TRUE) 
+
+   (year_released 2004)
+   (album_name "Kasabian")   
+
+   (album_track_number 1)   
+
+   (video_venues (video_03))
+   
+
+   (base_points 448748)
+; Added from RB3 DTB
+(song_length 172272)
+(solo (vocal_percussion))
+(format 10)
+(game_origin rb1_dlc)
+; Added RB3 tonic info
+(vocal_tonic_note 0)
+(song_tonality 1)
+)

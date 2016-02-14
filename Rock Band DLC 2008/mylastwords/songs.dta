@@ -1,0 +1,73 @@
+; RBDLC08 - 1005212 - Megadeth - My Last Words
+(mylastwords
+   (name "My Last Words")
+   (artist "Megadeth")
+   (master TRUE)
+   (context 389)
+   (song
+     (name        songs/mylastwords/mylastwords)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -1.0 -1.0  -7.0 -7.0   -2.0 -2.0  -4.0  -3.0 -3.0  -3.0 -3.0  -4.0 -4.0 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/mylastwords/mylastwords.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 160000 190000)
+   (rank
+      (drum 460)
+      (guitar 406)
+      (bass 410)
+      (vocals 215)
+      (band 433)
+   )
+   (genre metal)
+   (decade the80s)
+   (downloaded TRUE)
+   (vocal_gender male)
+
+   (format 3)
+   (version 1)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded {> $SONG_VERSION 0})
+
+   (album_art TRUE) 
+
+   (year_released 1986)
+   (album_name "Peace Sells... but Who's Buying?")   
+
+   (album_track_number 8)   
+
+   
+
+   (base_points 908971)
+; Added from RB3 DTB
+(song_id 1005212)
+(song_length 290909)
+(solo (guitar vocal_percussion))
+(format 10)
+(version 2)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 scroll information
+(vocal_tonic_note 2)
+(song_tonality 1)
+)

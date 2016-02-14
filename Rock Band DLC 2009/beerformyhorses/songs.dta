@@ -1,0 +1,71 @@
+; RBDLC09 - 1005504 - Toby Keith - Beer for My Horses
+(beerformyhorses
+   (name "Beer for My Horses")
+   (artist "Toby Keith")
+   (master TRUE)
+   (context 638)
+   (song
+     (name        songs/beerformyhorses/beerformyhorses)
+     (vocal_parts 3)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5 -0.5  -0.5 -0.5   -3.0 -3.0  -3.5  -4.5 -4.5  -2.0 -2.0  -3.5 -3.5 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/beerformyhorses/beerformyhorses.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 71703 101703)
+   (rank
+      (drum 197)
+      (guitar 242)
+      (bass 150)
+      (vocals 144)
+      (band 210)
+   )
+   (genre country)
+   (decade the00s)
+   (vocal_gender male)
+
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+
+   (album_art TRUE) 
+
+   (year_released 2002)
+   (album_name "Unleashed")   
+
+   (album_track_number 5)   
+
+   (pack_name "Toby Keith Pack 01")  
+
+   (base_points 417216)
+; Added from RB3 DTB
+(song_id 1005504)
+(song_length 214090)
+(solo (guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+; Added RB3 scroll information
+(vocal_tonic_note 10)
+(song_tonality 0)
+)

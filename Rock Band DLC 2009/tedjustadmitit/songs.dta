@@ -1,0 +1,70 @@
+(tedjustadmitit
+   (name "Ted, Just Admit It...")
+   (artist "Jane's Addiction")
+   (master TRUE)
+   (context 673)
+   (song
+     (name        songs/tedjustadmitit/tedjustadmitit)
+     (vocal_parts 3)
+(tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -3.0 -3.0  -2.3 -2.3   -2.7 -2.7  -3.5  -6.5 -6.5  -3.0 -3.0  -3.0 -3.0  ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/tedjustadmitit/tedjustadmitit.mid)
+     (hopo_threshold 70)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/tambourine_bank.milo)
+   (anim_tempo kTempoMedium)
+   (preview 202300 224070)
+   (rank
+      (drum 452)
+      (guitar 288)
+      (bass 180)
+      (vocals 221)
+      (band 292)
+   )
+   (genre alternative)
+   (decade the80s)
+   (vocal_gender male)
+   (format 3)
+   (version 3)               
+
+   (fake {== $SONG_VERSION 0})	
+   (downloaded TRUE)    
+   (album_art TRUE) 
+
+   (year_released 1988)
+   (album_name "Nothing's Shocking")   
+
+   (album_track_number 4)   
+
+   
+
+   (base_points 903659)
+; Added from RB3 DTB
+(song_id 1005534)
+(song_length 448181)
+(solo (drum guitar))
+(format 10)
+(game_origin rb1_dlc)
+(rating 2)
+(extra_authoring disc_update)
+; Added RB3 tonic info
+(vocal_tonic_note 4)
+(song_tonality 1)
+)

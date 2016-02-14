@@ -1,0 +1,9 @@
+; Parry Gripp - The Girl at the Video Game Store
+(UGC_5001873
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/UGC_5001873_plus.mid")
+	(song_id 5001873)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_prodrums_author GreenPanda12)
+	;(rbhp_version 1)
+)

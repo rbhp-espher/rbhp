@@ -1,0 +1,7 @@
+(medicate
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/medicate_plus.mid")
+   (song_id 1005855)
+   ;(rbhp_harmonies_author farottone)
+  ;(rbhp_version 1)
+)

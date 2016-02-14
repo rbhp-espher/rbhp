@@ -1,0 +1,7 @@
+(fivemagics
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/fivemagics_plus.mid")
+   (song_id 1005912)
+   ;(rbhp_author Espher)
+  ;(rbhp_version 1)
+)

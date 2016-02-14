@@ -1,0 +1,64 @@
+(insidethefire
+   (name "Inside the Fire")
+   (artist "Disturbed")
+   (master TRUE)
+   (context 205)
+   (song
+     (name        songs/insidethefire/insidethefire)
+     (vocal_parts 2)
+     (tracks
+        ((drum (0 1 2 3 4 5))
+         (bass 6)
+         (guitar (7 8))
+         (vocals (9 10))
+        )
+     )
+     
+
+     (pans        ( -1.0  1.0  -1.0  1.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        ( -0.5 -0.5  -1.5 -1.5   -3.0 -3.0  -4.0  -3.5 -3.5  -2.7 -2.7  -3.5 -3.5 ))
+     (cores       (  -1   -1    -1   -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (midi_file songs/insidethefire/insidethefire.mid)
+   )
+   (song_scroll_speed 2300)
+   (bank sfx/cowbell_bank.milo)
+   (anim_tempo kTempoSlow)
+   ;(preview 35200 76200)
+   (rank
+      (drum 351)
+      (guitar 320)
+      (bass 320)
+      (vocals 160)
+      (band 297)
+   )
+   (genre numetal)
+   (decade the00s)
+   (downloaded TRUE)
+   (vocal_gender male)
+; Added from RB3 DTB
+(song_id 1005126)	
+(preview	
+	35200
+	65200)
+(song_length 230000)	
+(solo (guitar vocal_percussion))	
+(format 10)	
+(version 1)	
+(game_origin rb1_dlc)	
+(rating 2)	
+(year_released 2008)	
+(alternate_path TRUE)	
+(extra_authoring disc_update)	
+(album_art TRUE)	
+(album_name "Indestructible")	
+(album_track_number 2)
+; Added RB3 tonic info
+(vocal_tonic_note 7)
+(song_tonality 1)
+)
