@@ -1,5 +1,7 @@
 (lifeisahighway
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/lifeisahighway_plus.mid")
-   (song_id 770)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/lifeisahighway_plus.mid")
+   	(song_id 770)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

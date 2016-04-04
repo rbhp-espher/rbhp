@@ -1,5 +1,7 @@
 (aliensexist
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/aliensexist_plus.mid")
-   (song_id 752)
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/aliensexist_plus.mid")
+	(song_id 752)
+	;(rbhp_harmonies_author toopskittles)
+	;(rbhp_version 1)
 )

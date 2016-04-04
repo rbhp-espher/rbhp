@@ -1,7 +1,7 @@
 (ifiaintgotyou
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/ifiaintgotyou_plus.mid")
-   (song_id 1005312)
-   ;(rbhp_author Espher)
-  ;(rbhp_version 1)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/ifiaintgotyou_plus.mid")
+   	(song_id 1005312)
+   	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

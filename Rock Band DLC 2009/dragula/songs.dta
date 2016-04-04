@@ -13,7 +13,7 @@
          (vocals (5 6))
         )
      )
-     (vocal_parts 3)
+     (vocal_parts 2)
      ;                 DMS      BS     GUITAR     VOCALS     TRACKS
      (pans        ( -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
      (vols        ( -4.1 -4.1  -1.3  -4.3 -4.3  -5.0 -5.0  -4.3 -4.3 ))

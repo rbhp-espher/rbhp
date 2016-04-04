@@ -1,5 +1,7 @@
 (jukeboxhero
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/jukeboxhero_plus.mid")
-   (song_id 1005002)
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/jukeboxhero_plus.mid")
+	(song_id 1005002)
+   	;(rbhp_harmonies_author espher)
+	;(rbhp_version 2)
 )

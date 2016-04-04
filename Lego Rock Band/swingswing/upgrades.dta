@@ -1,5 +1,7 @@
 (swingswing
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/swingswing_plus.mid")
-   (song_id 784)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/swingswing_plus.mid")
+   	(song_id 784)
+	;(rbhp_harmonies_author thomeval)
+	;(rbhp_version 1)
 )

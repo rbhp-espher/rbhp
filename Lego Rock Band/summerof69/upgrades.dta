@@ -1,9 +1,11 @@
 (summerof69
 
-    (upgrade_version 1)
+    	(upgrade_version 1)
 
-    (midi_file "songs_upgrades/summerof69_plus.mid")
+    	(midi_file "songs_upgrades/summerof69_plus.mid")
 
-    (song_id 783)
+    	(song_id 783)
 
+	;(rbhp_harmonies_author "Mr. Underhill")
+	;(rbhp_version 1)
 )

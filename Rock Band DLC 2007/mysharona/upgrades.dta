@@ -1,5 +1,7 @@
 (mysharona
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/mysharona_plus.mid")
-   (song_id 1005001)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/mysharona_plus.mid")
+   	(song_id 1005001)
+   	;(rbhp_harmonies_author espher)
+	;(rbhp_version 2)
 )

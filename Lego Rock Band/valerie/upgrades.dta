@@ -1,5 +1,7 @@
 (valerie
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/valerie_plus.mid")
-   (song_id 790)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/valerie_plus.mid")
+   	(song_id 790)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

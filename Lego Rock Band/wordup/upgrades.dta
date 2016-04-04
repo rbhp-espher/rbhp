@@ -1,5 +1,7 @@
 (wordup
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/wordup_plus.mid")
-   (song_id 794)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/wordup_plus.mid")
+   	(song_id 794)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

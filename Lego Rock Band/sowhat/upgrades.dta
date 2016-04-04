@@ -1,5 +1,7 @@
 (sowhat
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/sowhat_plus.mid")
-   (song_id 779)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/sowhat_plus.mid")
+   	(song_id 779)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

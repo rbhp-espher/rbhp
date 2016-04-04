@@ -1,5 +1,7 @@
 (fire
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/fire_plus.mid")
-   (song_id 797)
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/fire_plus.mid")
+   	(song_id 797)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

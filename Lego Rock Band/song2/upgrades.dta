@@ -1,5 +1,7 @@
 (song2
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/song2_plus.mid")
-   (song_id 780)
+	(upgrade_version 1)
+	(midi_file "songs_upgrades/song2_plus.mid")
+	(song_id 780)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

@@ -1,5 +1,7 @@
 (girlsandboys
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/girlsandboys_plus.mid")
-   (song_id 763)
+   	(upgrade_version 1)
+	(midi_file "songs_upgrades/girlsandboys_plus.mid")
+	(song_id 763)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

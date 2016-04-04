@@ -1,5 +1,7 @@
 (monster
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/monster_plus.mid")
-   (song_id 772)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/monster_plus.mid")
+   	(song_id 772)
+	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )

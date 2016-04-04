@@ -1,7 +1,7 @@
 (queenbitch
-   (upgrade_version 1)
-   (midi_file "songs_upgrades/queenbitch_plus.mid")
-   (song_id 1005016)
-   ;(rbhp_harmonies_author espher)
-  ;(rbhp_version 1)
+   	(upgrade_version 1)
+   	(midi_file "songs_upgrades/queenbitch_plus.mid")
+   	(song_id 1005016)
+      	;(rbhp_harmonies_author espher)
+	;(rbhp_version 1)
 )
