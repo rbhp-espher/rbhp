@@ -1,7 +1,5 @@
 (ticktickboom
-   	(upgrade_version 1)
-   	(midi_file "songs_upgrades/ticktickboom_plus.mid")
-   	(song_id 788)
-	;(rbhp_harmonies_author thomeval)
-	;(rbhp_version 1)
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/ticktickboom_plus.mid")
+   (song_id 788)
 )

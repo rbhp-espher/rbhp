@@ -1,7 +1,5 @@
 (accidentallyinlove
-	(upgrade_version 1)
-	(midi_file "songs_upgrades/accidentallyinlove_plus.mid")
-	(song_id 751)
-	;(rbhp_harmonies_author GreenPanda12)
-	;(rbhp_version 1)
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/accidentallyinlove_plus.mid")
+   (song_id 751)
 )

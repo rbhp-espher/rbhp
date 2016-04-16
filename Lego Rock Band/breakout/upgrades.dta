@@ -1,7 +1,5 @@
 (breakout
-   	(upgrade_version 1)
-	(midi_file "songs_upgrades/breakout_plus.mid")
-	(song_id 754)
-	;(rbhp_harmonies_author "Mr. Underhill")
-	;(rbhp_version 1)
+   (upgrade_version 1)
+   (midi_file "songs_upgrades/breakout_plus.mid")
+   (song_id 754)
 )
