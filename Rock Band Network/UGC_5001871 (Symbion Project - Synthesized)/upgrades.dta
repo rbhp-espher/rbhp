@@ -2,6 +2,7 @@
 	(upgrade_version 1)
 	(midi_file "songs_upgrades/UGC_5001871_plus.mid")
 	(song_id 5001871)
+	;(rbhp_harmonies_author espher)
 	;(rbhp_prodrums_author CyclopsDragon)
-	;(rbhp_version 1)
+	;(rbhp_version 2)
 )

@@ -3,5 +3,6 @@
    (midi_file "songs_upgrades/UGC_5000406_plus.mid")
    (song_id 5000406)
    ;(rbhp_harmonies_author espher)
-  ;(rbhp_version 1)
+   ;(rbhp_prodrums_author Sideshow)
+   ;(rbhp_version 2)
 )
